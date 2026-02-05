@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/@aryanarz49" target="blank"><img src="https://img.shields.io/twitter/follow/@aryanarz49?logo=twitter&style=for-the-badge" alt="@aryanarz49" /></a> </p>
 
-- 🌱 I’m currently learning **understanding C++**
+- 🌱 I’m currently learning **understanding Cloud,Deveops to make a carrear in it **
 
 - 👨‍💻 All of my projects are available at [https://github.com/AryanAnand-25raj](https://github.com/AryanAnand-25raj)
 
