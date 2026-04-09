@@ -1,13 +1,15 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2F81F7&center=true&vCenter=true&width=700&lines=Hi+there%2C+I'm+Aryan+Anand!+%F0%9F%91%8B;Software+%26+ML+Engineer+from+India+%F0%9F%87%AE%F0%9F%87%B3;Python+%7C+Machine+Learning+%7C+Web+Dev;Always+Learning%2C+Always+Building+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2F81F7&center=true&vCenter=true&width=700&lines=Hi+there%2C+I'm+Aryan+Anand!+%F0%9F%91%8B;Software+%26+Cloud+Engineer+from+India+%F0%9F%87%AE%F0%9F%87%B3;Python+%7C+Machine+Learning+%7C+Web+Dev;Always+Learning%2C+Always+Building+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=aryananand-25raj&label=Profile%20Views&color=2F81F7&style=flat-square)](https://github.com/AryanAnand-25raj)
-[![Twitter Follow](https://img.shields.io/twitter/follow/@aryanarz49?logo=twitter&style=flat-square&color=1DA1F2)](https://twitter.com/@aryanarz49)
+[![Twitter Follow](https://img.shields.io/twitter/follow/@Anand_Aryan25?logo=twitter&style=flat-square&color=1DA1F2)](https://twitter.com/@Anand_Aryan25)
+![Software & Cloud Engineer](https://img.shields.io/badge/Software%20%26%20Cloud%20Engineer-2F81F7?style=flat-square)
+![India](https://img.shields.io/badge/India%20%F0%9F%87%AE%F0%9F%87%B3-gray?style=flat-square)
 
 </div>
 
@@ -19,6 +21,7 @@
 aryan = {
     "name":     "Aryan Anand",
     "location": "India 🇮🇳",
+    "role":     "Software & Cloud Engineer",
     "learning": ["Cloud", "DevOps", "Python APIs"],
     "skills":   ["Python", "ML", "Data Science", "Web Dev", "Java", "C++"],
     "reach_me": "anandaryan406@gmail.com",
@@ -32,6 +35,7 @@ aryan = {
 - 📝 I post on **[Instagram @aryan_coder25](https://www.instagram.com/aryan_coder25)**
 - 🔷 Learning **C++ & DSA** for day-to-day problem solving
 - 📫 Reach me at **anandaryan406@gmail.com**
+- ⚡ Fun fact: **I am a Learner 🧑‍💻**
 
 ---
 
@@ -63,8 +67,8 @@ aryan = {
 
 ### ☁️ Cloud & DevOps *(Learning)*
 <p align="center">
-  <img src="https://img.shields.io/badge/Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/DevOps-0078D4?style=for-the-badge&logo=azure-devops&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure_DevOps-0078D4?style=for-the-badge&logo=azure-devops&logoColor=white" />
   <img src="https://img.shields.io/badge/Python_APIs-3776AB?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
@@ -119,5 +123,4 @@ aryan = {
 <div align="center">
   <i>⭐ If you like my work, consider starring some repositories!</i>
 </div>
-
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aryananand-25raj&" alt="aryananand-25raj" /></p>
