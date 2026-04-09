@@ -1,39 +1,123 @@
-<h1 align="center">Hi 👋, I'm AryanAnand-25raj</h1>
-<h3 align="center">A passionate Software and Machine learning Engineer from India</h3>
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=aryananand-25raj&label=Profile%20views&color=0e75b6&style=flat" alt="aryananand-25raj" /> </p>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2F81F7&center=true&vCenter=true&width=700&lines=Hi+there%2C+I'm+Aryan+Anand!+%F0%9F%91%8B;Software+%26+ML+Engineer+from+India+%F0%9F%87%AE%F0%9F%87%B3;Python+%7C+Machine+Learning+%7C+Web+Dev;Always+Learning%2C+Always+Building+%F0%9F%9A%80" alt="Typing SVG" />
+</a>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=aryananand-25raj" alt="aryananand-25raj" /></a> </p>
+<br/><br/>
 
-<p align="left"> <a href="https://twitter.com/@aryanarz49" target="blank"><img src="https://img.shields.io/twitter/follow/@aryanarz49?logo=twitter&style=for-the-badge" alt="@aryanarz49" /></a> </p>
+[![Profile Views](https://komarev.com/ghpvc/?username=aryananand-25raj&label=Profile%20Views&color=2F81F7&style=flat-square)](https://github.com/AryanAnand-25raj)
+[![Twitter Follow](https://img.shields.io/twitter/follow/@aryanarz49?logo=twitter&style=flat-square&color=1DA1F2)](https://twitter.com/@aryanarz49)
 
-- 🌱 I’m currently learning **understanding Cloud,Deveops,Python Api**
+</div>
 
-- 👨‍💻 All of my projects are available at [https://github.com/AryanAnand-25raj](https://github.com/AryanAnand-25raj)
+---
 
-- 📝 I regularly write articles on [https://www.instagram.com/aryan_coder25?igsh=MXd1NTAya2I4aHRneg%3D%3D&utm_source=qr](https://www.instagram.com/aryan_coder25?igsh=MXd1NTAya2I4aHRneg%3D%3D&utm_source=qr)
+## 👨‍💻 About Me
 
-- 💬 Ask me about **python, machine learning, data science,web development,jquery and Javascript**
+```python
+aryan = {
+    "name":     "Aryan Anand",
+    "location": "India 🇮🇳",
+    "learning": ["Cloud", "DevOps", "Python APIs"],
+    "skills":   ["Python", "ML", "Data Science", "Web Dev", "Java", "C++"],
+    "reach_me": "anandaryan406@gmail.com",
+    "fun_fact": "I am a Learner 🧑‍💻"
+}
+```
 
-- 📫 How to reach me **anandaryan406@gmail.com**
+- 🌱 Currently exploring **Cloud · DevOps · Python APIs**
+- 🔭 All my projects → **[github.com/AryanAnand-25raj](https://github.com/AryanAnand-25raj)**
+- 💬 Ask me about **Python · ML · Data Science · Web Development · jQuery · JavaScript**
+- 📝 I post on **[Instagram @aryan_coder25](https://www.instagram.com/aryan_coder25)**
+- 🔷 Learning **C++ & DSA** for day-to-day problem solving
+- 📫 Reach me at **anandaryan406@gmail.com**
 
-- 📄 Know about my experiences [I know about the python and machine learning,along with the web development and core Java and recently working on C++ Syntax and understanding to solve the problem solving for day-day purpose](I know about the python and machine learning,along with the web development and core Java and recently working on C++ Syntax and understanding to solve the problem solving for day-day purpose)
+---
 
-- ⚡ Fun fact **I am a Learner🧑‍💻**
+## 🛠️ Languages & Tools
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/@aryanarz49" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@aryanarz49" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/aryan anand" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="aryan anand" height="30" width="40" /></a>
-<a href="https://fb.com/aryan anand" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="aryan anand" height="30" width="40" /></a>
-<a href="https://instagram.com/anand_aryan25" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="anand_aryan25" height="30" width="40" /></a>
+### 💻 Languages
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+### 🌐 Web Development
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+</p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aryananand-25raj&show_icons=true&locale=en&layout=compact" alt="aryananand-25raj" /></p>
+### 🤖 AI / ML
+<p align="center">
+  <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data_Science-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aryananand-25raj&show_icons=true&locale=en" alt="aryananand-25raj" /></p>
+### ☁️ Cloud & DevOps *(Learning)*
+<p align="center">
+  <img src="https://img.shields.io/badge/Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/DevOps-0078D4?style=for-the-badge&logo=azure-devops&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python_APIs-3776AB?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aryananand-25raj&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryananand-25raj&layout=compact&theme=tokyonight&hide_border=true" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=aryananand-25raj&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=aryananand-25raj&theme=nord&no-frame=true&column=7" />
+</p>
+
+---
+
+## 🤝 Connect With Me
+
+<p align="center">
+  <a href="https://twitter.com/@aryanarz49">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/aryan-anand">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://instagram.com/anand_aryan25">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  <a href="https://instagram.com/aryan_coder25">
+    <img src="https://img.shields.io/badge/Blog_Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  <a href="mailto:anandaryan406@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+---
+
+<div align="center">
+  <i>⭐ If you like my work, consider starring some repositories!</i>
+</div>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aryananand-25raj&" alt="aryananand-25raj" /></p>
