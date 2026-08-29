@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 195" width="100%" height="195">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="streakBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#070c14" />
+    </linearGradient>
+
+    <!-- Ring Gradient -->
+    <linearGradient id="fireRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#2f81f7" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <filter id="streakGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800;900&amp;family=Inter:wght@600;700&amp;family=Fira+Code:wght@500;600&amp;display=swap');
+
+      .stat-num {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 28px;
+        font-weight: 900;
+        fill: #f0f6fc;
+      }
+
+      .stat-head {
+        font-family: 'Inter', sans-serif;
+        font-size: 13.5px;
+        font-weight: 700;
+        fill: #2f81f7;
+      }
+
+      .stat-date {
+        font-family: 'Fira Code', monospace;
+        font-size: 11px;
+        fill: #8b949e;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base Canvas -->
+  <rect width="880" height="195" rx="10" fill="url(#streakBg)" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Divider Vertical Lines -->
+  <line x1="293" y1="30" x2="293" y2="165" stroke="#21262d" stroke-width="1.5" />
+  <line x1="586" y1="30" x2="586" y2="165" stroke="#21262d" stroke-width="1.5" />
+
+  <!-- Column 1: Total Contributions -->
+  <g transform="translate(146, 60)" text-anchor="middle">
+    <text x="0" y="0" class="stat-num">2,148</text>
+    <text x="0" y="30" class="stat-head">Total Contributions</text>
+    <text x="0" y="55" class="stat-date">Aug 2025 - Present</text>
+  </g>
+
+  <!-- Column 2: Current Streak (Center Highlight) -->
+  <g transform="translate(440, 60)" text-anchor="middle">
+    <!-- Glowing Ring Around Number -->
+    <circle cx="0" cy="-6" r="38" fill="none" stroke="url(#fireRing)" stroke-width="3" filter="url(#streakGlow)" />
+    <text x="0" y="0" class="stat-num" fill="#38bdf8">184</text>
+    <text x="0" y="30" class="stat-head" fill="#38bdf8">Current Streak ⚡</text>
+    <text x="0" y="55" class="stat-date">Daily Active Momentum</text>
+  </g>
+
+  <!-- Column 3: Longest Streak -->
+  <g transform="translate(733, 60)" text-anchor="middle">
+    <text x="0" y="0" class="stat-num">240</text>
+    <text x="0" y="30" class="stat-head">Longest Streak 🏆</text>
+    <text x="0" y="55" class="stat-date">Continuous Code Velocity</text>
+  </g>
+</svg>

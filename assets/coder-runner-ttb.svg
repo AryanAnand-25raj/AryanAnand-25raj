@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="100%" height="220">
+  <defs>
+    <!-- Background Canvas Gradient -->
+    <linearGradient id="bgGradTtb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#040711" stop-opacity="0" />
+      <stop offset="25%" stop-color="#070c18" stop-opacity="0.95" />
+      <stop offset="75%" stop-color="#070c18" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#040711" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Vertical Cyber Highway Beam Gradients -->
+    <linearGradient id="beamGradTtb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="30%" stop-color="#2f81f7" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#a855f7" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#00ea64" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Plasma Upward Exhaust Stream -->
+    <linearGradient id="exhaustTtb" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="30%" stop-color="#38bdf8" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#818cf8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="boldGlowTtb" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes diveTtb {
+        0% { transform: translateY(-160px); }
+        100% { transform: translateY(260px); }
+      }
+
+      @keyframes waveSwayTtb {
+        0%, 100% { transform: translateX(0px) rotate(0deg); }
+        50% { transform: translateX(18px) rotate(4deg); }
+      }
+
+      @keyframes streamPulse {
+        0%, 100% { opacity: 0.75; stroke-dashoffset: 0; }
+        50% { opacity: 1; stroke-dashoffset: -30; }
+      }
+
+      .dive-group-ttb {
+        animation: diveTtb 4.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+
+      .sway-group-ttb {
+        animation: waveSwayTtb 1.5s ease-in-out infinite;
+      }
+
+      .warp-line {
+        animation: streamPulse 1s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Track Base Canvas -->
+  <rect width="1000" height="220" rx="14" fill="url(#bgGradTtb)" stroke="#21262d" stroke-width="1.5" />
+
+  <!-- Vertical Neon Warp Highway Lines (Descending Flow) -->
+  <g opacity="0.4" stroke="url(#beamGradTtb)" stroke-width="2">
+    <!-- Left Highway Rails -->
+    <line x1="320" y1="0" x2="320" y2="220" stroke-dasharray="14 10" class="warp-line" />
+    <line x1="380" y1="0" x2="380" y2="220" stroke-dasharray="24 14" class="warp-line" />
+    <!-- Center Guide Tracks -->
+    <line x1="500" y1="0" x2="500" y2="220" stroke="#38bdf8" stroke-width="3" filter="url(#boldGlowTtb)" />
+    <line x1="460" y1="0" x2="460" y2="220" stroke-dasharray="10 8" opacity="0.6" />
+    <line x1="540" y1="0" x2="540" y2="220" stroke-dasharray="10 8" opacity="0.6" />
+    <!-- Right Highway Rails -->
+    <line x1="620" y1="0" x2="620" y2="220" stroke-dasharray="24 14" class="warp-line" />
+    <line x1="680" y1="0" x2="680" y2="220" stroke-dasharray="14 10" class="warp-line" />
+  </g>
+
+  <!-- Telemetry Labels along Vertical Highway -->
+  <g opacity="0.7" font-family="'Fira Code', monospace" font-size="11" font-weight="700">
+    <text x="180" y="115" fill="#38bdf8">&gt;&gt; COMPILING DATA FLOW ↓</text>
+    <text x="730" y="115" fill="#a855f7">DEPLOYING CLUSTER ↓</text>
+  </g>
+
+  <!-- Speed Dust Nodes -->
+  <circle cx="500" cy="40" r="3" fill="#38bdf8" filter="url(#boldGlowTtb)" />
+  <circle cx="500" cy="110" r="3.5" fill="#a855f7" filter="url(#boldGlowTtb)" />
+  <circle cx="500" cy="180" r="3" fill="#00ea64" filter="url(#boldGlowTtb)" />
+
+  <!-- ==================== ANIMATED TOP-TO-BOTTOM DIVING HOVERBOARD CODER ==================== -->
+  <g class="dive-group-ttb">
+    <!-- Native SMIL Translation for Universal Markdown Render -->
+    <animateTransform attributeName="transform" type="translate" from="0 -160" to="0 260" dur="4.5s" repeatCount="indefinite" />
+
+    <!-- Upward Exhaust Plasma Trail -->
+    <path d="M 500,20 L 500,-120" stroke="url(#exhaustTtb)" stroke-width="8" filter="url(#boldGlowTtb)" />
+    <path d="M 488,30 L 488,-80" stroke="url(#exhaustTtb)" stroke-width="3" opacity="0.75" />
+    <path d="M 512,30 L 512,-80" stroke="url(#exhaustTtb)" stroke-width="3" opacity="0.75" />
+
+    <!-- Horizontal Sway Group -->
+    <g class="sway-group-ttb" transform="translate(0, 0)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 18 0; 0 0" dur="1.5s" repeatCount="indefinite" />
+
+      <!-- ==================== FUTURISTIC DESCENT HOVERBOARD ==================== -->
+      <g transform="translate(500, 75)">
+        <!-- Hoverboard Glowing Plasma Deck (Pitched Downward) -->
+        <ellipse cx="0" cy="0" rx="38" ry="10" fill="#0f172a" stroke="#38bdf8" stroke-width="2.5" filter="url(#boldGlowTtb)" />
+        <ellipse cx="0" cy="0" rx="28" ry="6" fill="#38bdf8" opacity="0.7" />
+        <circle cx="0" cy="0" r="3" fill="#ffffff" />
+      </g>
+
+      <!-- ==================== CODER CHARACTER (DIVING FORWARD/DOWN) ==================== -->
+      <g transform="translate(500, 15)">
+        
+        <!-- Legs Stance on Hoverboard -->
+        <path d="M -12,42 L -14,60" stroke="#0f172a" stroke-width="6.5" stroke-linecap="round" />
+        <path d="M 12,42 L 14,60" stroke="#0f172a" stroke-width="6.5" stroke-linecap="round" />
+        <!-- Glowing Cyber Sneakers -->
+        <rect x="-19" y="58" width="12" height="5" rx="2.5" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+        <rect x="7" y="58" width="12" height="5" rx="2.5" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+
+        <!-- Cyber Hoodie Body -->
+        <path d="M -18,15 L -18,44 L 18,44 L 18,15 Z" fill="#1e293b" stroke="#2563eb" stroke-width="1.8" />
+        <polygon points="-6,15 0,26 6,15" fill="#38bdf8" />
+        <line x1="0" y1="26" x2="0" y2="44" stroke="#38bdf8" stroke-width="1.8" />
+
+        <!-- Arms Navigating Downward -->
+        <path d="M -16,20 L -30,32 L -18,38" stroke="#1e293b" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M 16,20 L 30,32 L 18,38" stroke="#1e293b" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" />
+        <circle cx="-18" cy="38" r="3.5" fill="#fed7aa" />
+        <circle cx="18" cy="38" r="3.5" fill="#fed7aa" />
+
+        <!-- Head / Neck -->
+        <rect x="-3" y="10" width="6" height="6" fill="#fed7aa" />
+        <circle cx="0" cy="2" r="10.5" fill="#fed7aa" stroke="#2f81f7" stroke-width="1" />
+
+        <!-- Dark Hair -->
+        <path d="M -10,0 C -10,-10 10,-10 10,0 C 8,-6 -8,-6 -10,0 Z" fill="#0f172a" />
+
+        <!-- Glowing Blue Headphones -->
+        <path d="M -10,2 C -11,-8 11,-8 10,2" fill="none" stroke="#2563eb" stroke-width="3" />
+        <rect x="-13" y="-3" width="4.5" height="9" rx="2" fill="#2563eb" filter="url(#boldGlowTtb)" />
+        <rect x="8.5" y="-3" width="4.5" height="9" rx="2" fill="#2563eb" filter="url(#boldGlowTtb)" />
+
+        <!-- Smart Glasses -->
+        <rect x="-7" y="0" width="6" height="4.5" rx="1.2" fill="none" stroke="#38bdf8" stroke-width="1.2" />
+        <rect x="1" y="0" width="6" height="4.5" rx="1.2" fill="none" stroke="#38bdf8" stroke-width="1.2" />
+        <line x1="-1" y1="2.2" x2="1" y2="2.2" stroke="#38bdf8" stroke-width="1.2" />
+        
+        <!-- Focused Eyes & Smile -->
+        <circle cx="-4" cy="2.2" r="0.9" fill="#0f172a" />
+        <circle cx="4" cy="2.2" r="0.9" fill="#0f172a" />
+        <path d="M -3,7 Q 0,9 3,7" stroke="#9a3412" stroke-width="1.1" fill="none" stroke-linecap="round" />
+
+      </g>
+    </g>
+  </g>
+</svg>

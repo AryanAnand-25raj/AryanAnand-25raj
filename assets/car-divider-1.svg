@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 150" width="100%" height="100%">
+  <defs>
+    <linearGradient id="divBg1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#02040a" stop-opacity="0" />
+      <stop offset="20%" stop-color="#080e1e" stop-opacity="0.95" />
+      <stop offset="80%" stop-color="#080e1e" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#02040a" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="cyberLaneGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0" />
+      <stop offset="25%" stop-color="#00f2fe" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="1" />
+      <stop offset="75%" stop-color="#ff007f" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Realistic Porsche Top-Down Paint Shader -->
+    <linearGradient id="porscheTopBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a101d" />
+      <stop offset="20%" stop-color="#1e293b" />
+      <stop offset="50%" stop-color="#334155" />
+      <stop offset="80%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0a101d" />
+    </linearGradient>
+
+    <linearGradient id="glassRoofGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.5" />
+      <stop offset="35%" stop-color="#090d16" stop-opacity="0.95" />
+      <stop offset="80%" stop-color="#020408" stop-opacity="1" />
+      <stop offset="100%" stop-color="#ff007f" stop-opacity="0.4" />
+    </linearGradient>
+
+    <filter id="neonGlow1" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="trailGlow1" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes driveDownPorsche {
+      0% { transform: translateY(-70px) translateX(0px); opacity: 0; }
+      15% { opacity: 1; }
+      85% { opacity: 1; }
+      100% { transform: translateY(170px) translateX(8px); opacity: 0; }
+    }
+    @keyframes roadDashAnim {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -80; }
+    }
+    @keyframes hudPulseNode {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 1; }
+    }
+
+    .road-track-lines {
+      stroke-dasharray: 18 18;
+      animation: roadDashAnim 0.5s linear infinite;
+    }
+    .porsche-vector-car {
+      animation: driveDownPorsche 3.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+    .hud-text-track {
+      font-family: 'Orbitron', 'Segoe UI', monospace;
+      font-size: 10px;
+      letter-spacing: 2px;
+      fill: #38bdf8;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="920" height="150" fill="url(#divBg1)" rx="12" />
+
+  <!-- Cyber Highway Road Lane Borders -->
+  <line x1="40" y1="20" x2="880" y2="20" stroke="url(#cyberLaneGrad)" stroke-width="1.8" />
+  <line x1="40" y1="130" x2="880" y2="130" stroke="url(#cyberLaneGrad)" stroke-width="1.8" />
+
+  <!-- Road Center Dashed Highway Lines -->
+  <g stroke-width="2" opacity="0.6">
+    <line x1="330" y1="0" x2="330" y2="150" class="road-track-lines" stroke="#00f2fe" opacity="0.35"/>
+    <line x1="460" y1="0" x2="460" y2="150" class="road-track-lines" stroke="#6366f1" opacity="0.8" stroke-width="2.5"/>
+    <line x1="590" y1="0" x2="590" y2="150" class="road-track-lines" stroke="#00f2fe" opacity="0.35"/>
+  </g>
+
+  <!-- Side UI Markers -->
+  <g class="hud-text-track">
+    <text x="60" y="80">&gt;&gt; STAGE 01 // PORSCHE 911 TELEMETRY</text>
+    <text x="860" y="80" text-anchor="end">VECTOR: DOWNWARD ACCELERATION &gt;&gt;</text>
+  </g>
+
+  <!-- Animated Realistic Porsche 911 (Top-Down Silhouette) -->
+  <g class="porsche-vector-car" transform="translate(460, 0)">
+    <!-- Light Speed Trails (Dual Matrix Projector & Rear Light Beams) -->
+    <path d="M -16,-55 L -16,-5" stroke="#00f2fe" stroke-width="2.5" opacity="0.8" filter="url(#trailGlow1)"/>
+    <path d="M 16,-55 L 16,-5" stroke="#00f2fe" stroke-width="2.5" opacity="0.8" filter="url(#trailGlow1)"/>
+    <path d="M 0,-65 L 0,-8" stroke="#ff007f" stroke-width="3" opacity="0.9" filter="url(#neonGlow1)"/>
+
+    <!-- Realistic Drop Shadow on Asphalt -->
+    <ellipse cx="0" cy="22" rx="28" ry="46" fill="#000000" opacity="0.88"/>
+
+    <!-- Wide Rear Michelin Pilot Sport Cup 2 Tires (Top View) -->
+    <rect x="-27" y="18" width="8" height="24" rx="3" fill="#090d16" stroke="#334155" stroke-width="1"/>
+    <rect x="19" y="18" width="8" height="24" rx="3" fill="#090d16" stroke="#334155" stroke-width="1"/>
+    <!-- Front Tires -->
+    <rect x="-24" y="-28" width="7" height="22" rx="3" fill="#090d16" stroke="#334155" stroke-width="1"/>
+    <rect x="17" y="-28" width="7" height="22" rx="3" fill="#090d16" stroke="#334155" stroke-width="1"/>
+
+    <!-- Realistic Porsche 911 Sculpted Teardrop Chassis Silhouette -->
+    <!-- Front rounded nose, sloping front fenders, tucked waistline, muscular wide rear haunches -->
+    <path d="M 0,-44 
+             C 12,-44 21,-35 22,-20 
+             C 23,-5 18,5 24,18 
+             C 27,25 25,38 18,44 
+             C 10,48 -10,48 -18,44 
+             C -25,38 -27,25 -24,18 
+             C -18,5 -23,-5 -22,-20 
+             C -21,-35 -12,-44 0,-44 Z" 
+          fill="url(#porscheTopBody)" 
+          stroke="#475569" 
+          stroke-width="1.2"/>
+
+    <!-- Carbon Fiber Aero Wing at Rear -->
+    <rect x="-25" y="38" width="50" height="5" rx="2" fill="#050811" stroke="#00f2fe" stroke-width="1" filter="url(#neonGlow1)"/>
+    <line x1="-15" y1="35" x2="-15" y2="43" stroke="#334155" stroke-width="1.5"/>
+    <line x1="15" y1="35" x2="15" y2="43" stroke="#334155" stroke-width="1.5"/>
+
+    <!-- Porsche Curved Windshield & Glass Cabin Canopy -->
+    <path d="M 0,-24 
+             C 10,-24 14,-15 13,-2 
+             C 12,12 11,20 0,22 
+             C -11,20 -12,12 -13,-2 
+             C -14,-15 -10,-24 0,-24 Z" 
+          fill="url(#glassRoofGrad)" 
+          stroke="#00f2fe" 
+          stroke-width="1"/>
+
+    <!-- Engine Deck Lid Cooling Slats (Iconic 911 Vertical Louvers) -->
+    <line x1="-8" y1="26" x2="-8" y2="34" stroke="#00f2fe" stroke-width="1" opacity="0.8"/>
+    <line x1="-4" y1="25" x2="-4" y2="35" stroke="#00f2fe" stroke-width="1" opacity="0.8"/>
+    <line x1="0" y1="25" x2="0" y2="35" stroke="#38bdf8" stroke-width="1.2" opacity="0.9"/>
+    <line x1="4" y1="25" x2="4" y2="35" stroke="#00f2fe" stroke-width="1" opacity="0.8"/>
+    <line x1="8" y1="26" x2="8" y2="34" stroke="#00f2fe" stroke-width="1" opacity="0.8"/>
+
+    <!-- Front Porsche 4-Point Matrix LED DRL Lights (Projecting Downward) -->
+    <!-- Left Headlight Quad Points -->
+    <circle cx="-13" cy="-36" r="1.8" fill="#ffffff" filter="url(#neonGlow1)"/>
+    <circle cx="-17" cy="-34" r="1.8" fill="#00f2fe" filter="url(#neonGlow1)"/>
+    <!-- Right Headlight Quad Points -->
+    <circle cx="13" cy="-36" r="1.8" fill="#ffffff" filter="url(#neonGlow1)"/>
+    <circle cx="17" cy="-34" r="1.8" fill="#00f2fe" filter="url(#neonGlow1)"/>
+
+    <!-- Rear 3D Continuous Neon Red/Magenta Lightbar -->
+    <path d="M -18,43 Q 0,46 18,43" stroke="#ff007f" stroke-width="2.5" fill="none" filter="url(#neonGlow1)"/>
+    <!-- Center Porsche Third Brake Light -->
+    <line x1="-4" y1="23" x2="4" y2="23" stroke="#ff007f" stroke-width="2" filter="url(#neonGlow1)"/>
+  </g>
+</svg>

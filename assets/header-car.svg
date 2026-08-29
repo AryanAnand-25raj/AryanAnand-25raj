@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Space Gradient -->
+    <linearGradient id="headerSpaceBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02040b" />
+      <stop offset="40%" stop-color="#060c1d" />
+      <stop offset="100%" stop-color="#020308" />
+    </linearGradient>
+
+    <!-- Speed Beams Gradients -->
+    <linearGradient id="beamCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0" />
+      <stop offset="25%" stop-color="#00f2fe" stop-opacity="0.9" />
+      <stop offset="75%" stop-color="#38bdf8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="beamMagenta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f" stop-opacity="0" />
+      <stop offset="35%" stop-color="#ff007f" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#7928ca" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ff007f" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="titleShader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#ff007f" />
+    </linearGradient>
+
+    <linearGradient id="jetTrailHeader" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="20%" stop-color="#00f2fe" stop-opacity="0.95" />
+      <stop offset="60%" stop-color="#ff007f" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#7928ca" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="neonGlowHeader" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="laserBeamHeader" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes headerHover {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      25% { transform: translateY(-4px) rotate(1deg); }
+      75% { transform: translateY(3px) rotate(-1deg); }
+    }
+    @keyframes screenGlowPulse {
+      0%, 100% { filter: drop-shadow(0 0 10px #00f2fe); }
+      50% { filter: drop-shadow(0 0 25px #00f2fe) drop-shadow(0 0 40px #38bdf8); }
+    }
+    @keyframes dashStream {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -200; }
+    }
+    @keyframes floatSyntaxTag {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+
+    .hero-character {
+      animation: headerHover 2s ease-in-out infinite;
+    }
+    .holo-screen-pulse {
+      animation: screenGlowPulse 2s ease-in-out infinite;
+    }
+    .stream-line {
+      stroke-dasharray: 45 30;
+      animation: dashStream 0.4s linear infinite;
+    }
+    .syntax-floating-tag {
+      animation: floatSyntaxTag 3s ease-in-out infinite;
+    }
+    .font-fira {
+      font-family: 'Fira Code', monospace;
+    }
+    .font-orbitron {
+      font-family: 'Orbitron', 'Segoe UI', sans-serif;
+    }
+  </style>
+
+  <!-- Background Base Container -->
+  <rect width="1100" height="320" rx="16" fill="url(#headerSpaceBg)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- High-Speed Cosmic Coding Laser Rails (Matching Showcase Hero) -->
+  <g opacity="0.8">
+    <line x1="0" y1="45" x2="1100" y2="45" stroke="url(#beamCyan)" stroke-width="2" class="stream-line" />
+    <line x1="0" y1="90" x2="1100" y2="90" stroke="url(#beamMagenta)" stroke-width="2.5" class="stream-line" style="animation-duration: 0.3s;" />
+    <line x1="0" y1="210" x2="1100" y2="210" stroke="url(#beamCyan)" stroke-width="2.5" class="stream-line" />
+    <line x1="0" y1="250" x2="1100" y2="250" stroke="#22c55e" stroke-width="1.5" class="stream-line" style="animation-duration: 0.5s;" opacity="0.7" />
+  </g>
+
+  <!-- Floating Holographic Code Tags & Brackets (Matching Showcase Image) -->
+  <g class="syntax-floating-tag font-fira">
+    <text x="80" y="65" fill="#38bdf8" font-size="14">&lt;script&gt;</text>
+    <text x="540" y="55" fill="#22c55e" font-size="14">console.log('Deploying...') 🚀</text>
+    <text x="1000" y="65" fill="#ff007f" font-size="14" text-anchor="end">{ ... }</text>
+
+    <text x="70" y="140" fill="#a855f7" font-size="13">const main {</text>
+    <text x="1020" y="140" fill="#00f2fe" font-size="13" text-anchor="end">'commit_changes'</text>
+
+    <text x="600" y="245" fill="#ff007f" font-size="14" font-weight="700">npm , git , docker , k8s =&gt;</text>
+    <text x="80" y="245" fill="#94a3b8" font-size="12">const buffer = 0110</text>
+  </g>
+
+  <!-- ==================== HERO CARTOON CODER ON CYBER HOVERBOARD ==================== -->
+  <g transform="translate(180, 25)">
+    
+    <!-- Giant Plasma Jet Speed Stream behind Board -->
+    <path d="M 160,185 L -120,170 L 60,190 L -180,198 L 160,200 Z" fill="url(#jetTrailHeader)" filter="url(#laserBeamHeader)" />
+
+    <!-- Road Surface Glow & Shadow -->
+    <ellipse cx="230" cy="210" rx="110" ry="12" fill="#000000" opacity="0.9" />
+    <ellipse cx="230" cy="207" rx="90" ry="6" fill="#00f2fe" opacity="0.4" filter="url(#neonGlowHeader)" />
+
+    <!-- Character Body -->
+    <g class="hero-character">
+      
+      <!-- Cyber Hoverboard -->
+      <g id="heroHoverboard">
+        <ellipse cx="160" cy="198" rx="16" ry="5" fill="#00f2fe" filter="url(#neonGlowHeader)" />
+        <ellipse cx="290" cy="198" rx="16" ry="5" fill="#ff007f" filter="url(#neonGlowHeader)" />
+        
+        <path d="M 120,190 C 180,180 290,180 345,190 L 336,202 C 285,194 185,194 128,202 Z" 
+              fill="#0f172a" 
+              stroke="#00f2fe" 
+              stroke-width="2" 
+              filter="url(#neonGlowHeader)" />
+
+        <path d="M 135,196 Q 235,188 330,196" stroke="#ff007f" stroke-width="3" fill="none" filter="url(#neonGlowHeader)" />
+        <circle cx="235" cy="192" r="4" fill="#ffffff" />
+      </g>
+
+      <!-- Developer Character Details -->
+      <!-- Backpack -->
+      <path d="M 155,110 C 142,110 132,122 132,148 C 132,165 145,178 160,178 Z" fill="#090e1f" stroke="#00f2fe" stroke-width="1.5" />
+      <line x1="156" y1="122" x2="182" y2="135" stroke="#00f2fe" stroke-width="2.5" />
+
+      <!-- Left Leg & Back Sneaker -->
+      <path d="M 175,150 L 162,178 L 180,190 L 194,190 L 188,172 L 194,150 Z" fill="#090d18" stroke="#1e293b" stroke-width="1" />
+      <ellipse cx="172" cy="190" rx="16" ry="7" fill="#1e293b" stroke="#00f2fe" stroke-width="1.8" />
+      <line x1="158" y1="194" x2="186" y2="194" stroke="#00f2fe" stroke-width="2.5" filter="url(#neonGlowHeader)" />
+
+      <!-- Right Leg & Front Sneaker (Stepping Forward) -->
+      <path d="M 230,150 L 260,174 L 282,190 L 298,190 L 278,170 L 254,150 Z" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+      <ellipse cx="290" cy="190" rx="16" ry="7" fill="#1e293b" stroke="#ff007f" stroke-width="1.8" />
+      <line x1="276" y1="194" x2="304" y2="194" stroke="#ff007f" stroke-width="2.5" filter="url(#neonGlowHeader)" />
+
+      <!-- Dark Tech Hoodie Torso -->
+      <path d="M 165,110 C 160,78 198,68 240,74 C 265,80 270,108 260,152 C 220,158 190,158 165,152 Z" 
+            fill="#0f172a" 
+            stroke="#38bdf8" 
+            stroke-width="1.8" />
+      <path d="M 205,74 L 195,142 M 230,76 L 240,142" stroke="#00f2fe" stroke-width="1.6" opacity="0.85" />
+
+      <!-- Arms & Typing Hands -->
+      <path d="M 215,90 Q 252,102 268,125" stroke="#0f172a" stroke-width="16" stroke-linecap="round" />
+      <path d="M 215,90 Q 252,102 268,125" stroke="#00f2fe" stroke-width="1.5" fill="none" />
+
+      <path d="M 268,125 L 296,122 M 268,128 L 300,126" stroke="#fed7aa" stroke-width="5" stroke-linecap="round" />
+      <circle cx="298" cy="122" r="3.5" fill="#fed7aa" stroke="#00f2fe" stroke-width="1" />
+      <circle cx="302" cy="126" r="3.5" fill="#fed7aa" stroke="#00f2fe" stroke-width="1" />
+
+      <!-- Glowing Laptop Base & Hologram Screen -->
+      <polygon points="275,126 338,120 328,134 265,134" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+      <line x1="280" y1="130" x2="328" y2="125" stroke="#00f2fe" stroke-width="1.8" stroke-dasharray="4 2" />
+
+      <g class="holo-screen-pulse">
+        <polygon points="308,76 358,78 338,120 302,118" fill="rgba(0, 242, 254, 0.75)" stroke="#00f2fe" stroke-width="2" filter="url(#neonGlowHeader)" />
+        <circle cx="330" cy="98" r="4" fill="#ffffff" filter="url(#neonGlowHeader)" />
+
+        <!-- Projected Hologram Window Floating in Air -->
+        <g transform="translate(310, 32)">
+          <rect x="0" y="0" width="90" height="52" rx="6" fill="rgba(4, 12, 30, 0.88)" stroke="#00f2fe" stroke-width="1.5" filter="url(#neonGlowHeader)" />
+          <line x1="8" y1="12" x2="82" y2="12" stroke="#00f2fe" stroke-width="2" />
+          <line x1="8" y1="22" x2="62" y2="22" stroke="#ff007f" stroke-width="2" />
+          <line x1="8" y1="32" x2="74" y2="32" stroke="#22c55e" stroke-width="2" />
+          <line x1="8" y1="42" x2="48" y2="42" stroke="#38bdf8" stroke-width="2" />
+        </g>
+      </g>
+
+      <!-- Head, Face, Hair & Headphones -->
+      <rect x="210" y="58" width="16" height="14" fill="#fed7aa" />
+      <path d="M 195,46 C 195,16 226,12 245,22 C 255,28 258,40 252,54 C 240,66 212,64 195,46 Z" fill="#fed7aa" stroke="#334155" stroke-width="1" />
+      
+      <!-- Spiky Layered Dark Anime Coder Hair -->
+      <path d="M 186,38 C 182,10 212,2 238,8 C 252,12 258,28 252,40 C 242,24 214,18 186,38 Z" fill="#0f172a" stroke="#00f2fe" stroke-width="1.2" />
+      <polygon points="214,4 225,-6 232,8" fill="#0f172a" />
+      <polygon points="232,8 244,-4 250,12" fill="#0f172a" />
+      <polygon points="194,14 204,0 214,12" fill="#0f172a" />
+
+      <!-- Focused Eyes & Smile -->
+      <path d="M 230,34 Q 242,32 246,36" stroke="#0f172a" stroke-width="2" fill="none" />
+      <circle cx="240" cy="38" r="4" fill="#040814" stroke="#00f2fe" stroke-width="1.2" filter="url(#neonGlowHeader)" />
+      <circle cx="241" cy="37" r="1.5" fill="#ffffff" />
+      <path d="M 232,50 Q 240,54 246,48" stroke="#0f172a" stroke-width="1.8" fill="none" />
+
+      <!-- Gaming Headphones with Glowing Neon Magenta LED Earcups -->
+      <path d="M 190,40 Q 186,10 216,10 Q 240,10 240,32" fill="none" stroke="#6366f1" stroke-width="4.5" />
+      <rect x="186" y="30" width="12" height="22" rx="5" fill="#ff007f" stroke="#ffffff" stroke-width="1.2" filter="url(#neonGlowHeader)" />
+      <circle cx="192" cy="41" r="3" fill="#00f2fe" />
+    </g>
+  </g>
+
+  <!-- Top Hero Title Tagline (Centered / Right Aligned for Maximum Readability) -->
+  <g transform="translate(680, 275)" text-anchor="middle">
+    <text y="0" class="font-orbitron" font-size="20" font-weight="900" letter-spacing="4" fill="#ffffff">
+      ARYAN ANAND <tspan fill="#00f2fe">//</tspan> <tspan fill="url(#titleShader)">SOFTWARE &amp; CLOUD ENGINEER</tspan>
+    </text>
+    <text y="22" class="font-fira" font-size="11" font-weight="500" letter-spacing="2.5" fill="#94a3b8">
+      CONTINUOUS LEARNER • MACH SPEED BUILDER • PYTHON • CLOUD • DEVOPS
+    </text>
+  </g>
+
+  <!-- Modern Laser Bottom Frame Border -->
+  <line x1="30" y1="315" x2="1070" y2="315" stroke="url(#titleShader)" stroke-width="1.5" opacity="0.85" />
+  <circle cx="30" cy="315" r="3.5" fill="#00f2fe" />
+  <circle cx="1070" cy="315" r="3.5" fill="#ff007f" />
+</svg>

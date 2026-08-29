@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="100%" height="360">
+  <defs>
+    <!-- Terminal Body Gradient -->
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <!-- Header Gradient -->
+    <linearGradient id="termHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="termGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&amp;family=Orbitron:wght@700&amp;display=swap');
+
+      .term-code {
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 13px;
+        fill: #c9d1d9;
+      }
+
+      .term-prompt {
+        font-family: 'Fira Code', monospace;
+        font-weight: 700;
+        fill: #00ea64;
+      }
+
+      .term-path {
+        font-family: 'Fira Code', monospace;
+        font-weight: 600;
+        fill: #38bdf8;
+      }
+
+      .term-val {
+        font-family: 'Fira Code', monospace;
+        font-weight: 600;
+        fill: #f0f6fc;
+      }
+
+      .term-key {
+        font-family: 'Fira Code', monospace;
+        font-weight: 700;
+        fill: #818cf8;
+      }
+
+      @keyframes blinkCursor {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+
+      .cursor {
+        animation: blinkCursor 0.9s infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Terminal Window Background -->
+  <rect width="1000" height="360" rx="14" fill="url(#termBg)" stroke="#30363d" stroke-width="1.8" />
+
+  <!-- Terminal Title Bar -->
+  <rect width="1000" height="40" rx="14" fill="url(#termHeader)" />
+  <rect y="26" width="1000" height="14" fill="url(#termHeader)" />
+  <line x1="0" y1="40" x2="1000" y2="40" stroke="#30363d" stroke-width="1" />
+
+  <!-- Window Control Buttons (macOS / Linux Style) -->
+  <circle cx="28" cy="20" r="6" fill="#ff5f56" />
+  <circle cx="48" cy="20" r="6" fill="#ffbd2e" />
+  <circle cx="68" cy="20" r="6" fill="#27c93f" />
+
+  <!-- Window Title -->
+  <text x="500" y="25" text-anchor="middle" font-family="'Fira Code', monospace" font-size="12" font-weight="600" fill="#8b949e">
+    aryan@cloud-node-01: ~ (zsh)
+  </text>
+
+  <!-- Window Tabs / Status -->
+  <g transform="translate(820, 12)">
+    <rect width="150" height="18" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="0.8" />
+    <text x="75" y="13" text-anchor="middle" font-family="'Fira Code', monospace" font-size="10" fill="#00ea64">● SSH ACTIVE</text>
+  </g>
+
+  <!-- ==================== TERMINAL CONTENT ==================== -->
+  <g transform="translate(35, 75)">
+    
+    <!-- Command 1: neofetch system telemetry -->
+    <text x="0" y="0">
+      <tspan class="term-prompt">aryan@cloud-node-01</tspan><tspan fill="#8b949e">:</tspan><tspan class="term-path">~</tspan><tspan fill="#8b949e">$</tspan> 
+      <tspan fill="#facc15" font-weight="700">neofetch --developer-profile</tspan>
+    </text>
+
+    <!-- ASCII Cyber Logo (Left Column) -->
+    <g transform="translate(10, 24)" font-family="'Fira Code', monospace" font-size="11.5" font-weight="800" fill="#38bdf8">
+      <text x="0" y="14">   /\_/\   </text>
+      <text x="0" y="28">  ( o.o )  </text>
+      <text x="0" y="42">   &gt; ^ &lt;   </text>
+      <text x="0" y="60" fill="#2f81f7">  ┌─────┐  </text>
+      <text x="0" y="74" fill="#2f81f7">  │ ARY │  </text>
+      <text x="0" y="88" fill="#2f81f7">  └─────┘  </text>
+      <text x="0" y="106" fill="#a855f7"> [CYBER-DEV] </text>
+      <text x="0" y="124" fill="#00ea64">  [v2.5.0]  </text>
+    </g>
+
+    <!-- System Specs & Architect Profile (Right Column) -->
+    <g transform="translate(140, 26)" class="term-code">
+      <!-- Line 1: OS / Kernel -->
+      <text x="0" y="14">
+        <tspan class="term-key">OS          :</tspan> <tspan class="term-val">Arch Linux x86_64 // Cloud Kernel 6.8</tspan>
+      </text>
+
+      <!-- Line 2: Host -->
+      <text x="0" y="34">
+        <tspan class="term-key">Host        :</tspan> <tspan class="term-val">Aryan Anand (Software &amp; Cloud Architect)</tspan>
+      </text>
+
+      <!-- Line 3: Uptime -->
+      <text x="0" y="54">
+        <tspan class="term-key">Uptime      :</tspan> <tspan class="term-val">21 Years // Continuous Learning Loop</tspan>
+      </text>
+
+      <!-- Line 4: Core Tech Stack -->
+      <text x="0" y="74">
+        <tspan class="term-key">Packages    :</tspan> <tspan class="term-val">Python, Go, C++, React, Docker, Kubernetes, AWS, GCP</tspan>
+      </text>
+
+      <!-- Line 5: Shell & Terminal -->
+      <text x="0" y="94">
+        <tspan class="term-key">Shell       :</tspan> <tspan class="term-val">zsh 5.9 with Starship Prompt &amp; Vim keybindings</tspan>
+      </text>
+
+      <!-- Line 6: Focus Area -->
+      <text x="0" y="114">
+        <tspan class="term-key">Focus       :</tspan> <tspan class="term-val">Applied AI, High-Throughput Microservices &amp; Distributed Systems</tspan>
+      </text>
+
+      <!-- Line 7: Telemetry Memory -->
+      <text x="0" y="134">
+        <tspan class="term-key">Memory      :</tspan> <tspan class="term-val">2,100+ Commits / 3,000+ Coffee Cups Cached</tspan>
+      </text>
+
+      <!-- Color Palette Blocks -->
+      <g transform="translate(0, 150)">
+        <rect x="0" y="0" width="22" height="12" rx="2" fill="#0f172a" />
+        <rect x="26" y="0" width="22" height="12" rx="2" fill="#ef4444" />
+        <rect x="52" y="0" width="22" height="12" rx="2" fill="#22c55e" />
+        <rect x="78" y="0" width="22" height="12" rx="2" fill="#eab308" />
+        <rect x="104" y="0" width="22" height="12" rx="2" fill="#3b82f6" />
+        <rect x="130" y="0" width="22" height="12" rx="2" fill="#a855f7" />
+        <rect x="156" y="0" width="22" height="12" rx="2" fill="#06b6d4" />
+        <rect x="182" y="0" width="22" height="12" rx="2" fill="#f8fafc" />
+      </g>
+    </g>
+
+    <!-- Command 2 with Live Blinking Cursor -->
+    <g transform="translate(0, 225)">
+      <text x="0" y="0">
+        <tspan class="term-prompt">aryan@cloud-node-01</tspan><tspan fill="#8b949e">:</tspan><tspan class="term-path">~</tspan><tspan fill="#8b949e">$</tspan> 
+        <tspan fill="#f0f6fc">git push origin main --force-with-lease</tspan>
+      </text>
+      <rect x="360" y="-12" width="8" height="15" fill="#00ea64" class="cursor" />
+    </g>
+
+  </g>
+</svg>

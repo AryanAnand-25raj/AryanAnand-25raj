@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="100%" height="320">
+  <defs>
+    <!-- Background Canvas Gradient -->
+    <linearGradient id="waveBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#070c18" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+
+    <!-- Waveform Area Gradient (Glowing Cyan to Purple) -->
+    <linearGradient id="waveAreaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#2f81f7" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.0" />
+    </linearGradient>
+
+    <!-- Waveform Neon Stroke Gradient -->
+    <linearGradient id="waveStrokeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="35%" stop-color="#2f81f7" />
+      <stop offset="70%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#00ea64" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="waveGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&amp;family=Inter:wght@600;700&amp;family=Fira+Code:wght@500;700&amp;display=swap');
+
+      .graph-title {
+        font-family: 'Orbitron', 'Inter', sans-serif;
+        font-size: 17px;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+        fill: #f0f6fc;
+      }
+
+      .axis-label {
+        font-family: 'Fira Code', monospace;
+        font-size: 11px;
+        font-weight: 500;
+        fill: #8b949e;
+      }
+
+      .stat-badge {
+        font-family: 'Fira Code', monospace;
+        font-size: 11.5px;
+        font-weight: 700;
+        fill: #38bdf8;
+      }
+
+      @keyframes pulsePoint {
+        0%, 100% { r: 4.5px; opacity: 0.85; }
+        50% { r: 7px; opacity: 1; }
+      }
+
+      @keyframes waveFloat {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+
+      .pulse-node {
+        animation: pulsePoint 2s ease-in-out infinite;
+      }
+
+      .wave-anim {
+        animation: waveFloat 3s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base Canvas -->
+  <rect width="1000" height="320" rx="14" fill="url(#waveBg)" stroke="#30363d" stroke-width="1.6" />
+
+  <!-- Card Header -->
+  <g transform="translate(40, 38)">
+    <circle cx="6" cy="0" r="4.5" fill="#00ea64" />
+    <text x="22" y="5" class="graph-title">CONTRIBUTION ACTIVITY VELOCITY</text>
+    <text x="380" y="5" class="stat-badge">[ +2,100+ COMMITS &amp; PRs MERGED ]</text>
+  </g>
+
+  <!-- Top Right Metric Pills -->
+  <g transform="translate(730, 25)">
+    <rect width="120" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="60" y="16" text-anchor="middle" font-family="'Fira Code', monospace" font-size="10.5" fill="#00ea64">● ACTIVE SPRINT</text>
+
+    <rect x="130" width="100" height="24" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="180" y="16" text-anchor="middle" font-family="'Fira Code', monospace" font-size="10.5" fill="#38bdf8">99.8% PACE</text>
+  </g>
+
+  <!-- Grid Horizontal Baseline & Reference Grid Lines -->
+  <g stroke="#21262d" stroke-width="1.2">
+    <!-- Top Grid Line (High Activity) -->
+    <line x1="60" y1="90" x2="940" y2="90" stroke-dasharray="6 6" />
+    <text x="45" y="94" text-anchor="end" class="axis-label">MAX</text>
+
+    <!-- Mid Grid Line -->
+    <line x1="60" y1="150" x2="940" y2="150" stroke-dasharray="6 6" />
+    <text x="45" y="154" text-anchor="end" class="axis-label">MID</text>
+
+    <!-- Low Grid Line -->
+    <line x1="60" y1="210" x2="940" y2="210" stroke-dasharray="6 6" />
+    <text x="45" y="214" text-anchor="end" class="axis-label">MIN</text>
+
+    <!-- Base Axis Line -->
+    <line x1="60" y1="260" x2="940" y2="260" stroke="#30363d" stroke-width="1.8" />
+  </g>
+
+  <!-- Month / Time Axis Labels -->
+  <g class="axis-label" text-anchor="middle">
+    <text x="90" y="285">JAN</text>
+    <text x="170" y="285">FEB</text>
+    <text x="250" y="285">MAR</text>
+    <text x="330" y="285">APR</text>
+    <text x="410" y="285">MAY</text>
+    <text x="490" y="285">JUN</text>
+    <text x="570" y="285">JUL</text>
+    <text x="650" y="285">AUG</text>
+    <text x="730" y="285">SEP</text>
+    <text x="810" y="285">OCT</text>
+    <text x="890" y="285">NOV/DEC</text>
+  </g>
+
+  <!-- ==================== ANIMATED WAVEFORM AREA & GLOWING PATH ==================== -->
+  <g class="wave-anim">
+    
+    <!-- Filled Gradient Area Under Waveform -->
+    <path d="M 70,260 
+             L 70,210 
+             C 110,190 140,160 180,180 
+             C 220,200 250,120 290,130 
+             C 330,140 360,200 400,170 
+             C 440,140 470,80  510,95 
+             C 550,110 580,160 620,140 
+             C 660,120 690,75  730,85 
+             C 770,95  800,150 840,120 
+             C 870,100 900,85  930,95 
+             L 930,260 Z" 
+          fill="url(#waveAreaGrad)" />
+
+    <!-- Glowing Neon Waveform Stroke -->
+    <path d="M 70,210 
+             C 110,190 140,160 180,180 
+             C 220,200 250,120 290,130 
+             C 330,140 360,200 400,170 
+             C 440,140 470,80  510,95 
+             C 550,110 580,160 620,140 
+             C 660,120 690,75  730,85 
+             C 770,95  800,150 840,120 
+             C 870,100 900,85  930,95" 
+          fill="none" 
+          stroke="url(#waveStrokeGrad)" 
+          stroke-width="3.5" 
+          stroke-linecap="round" 
+          filter="url(#waveGlow)" />
+
+    <!-- Key Activity Peak Glowing Nodes -->
+    <circle cx="180" cy="180" r="4.5" fill="#38bdf8" class="pulse-node" filter="url(#waveGlow)" />
+    <circle cx="290" cy="130" r="4.5" fill="#38bdf8" class="pulse-node" />
+    <circle cx="400" cy="170" r="4.5" fill="#2f81f7" class="pulse-node" />
+    <circle cx="510" cy="95" r="5.5" fill="#a855f7" class="pulse-node" filter="url(#waveGlow)" />
+    <circle cx="620" cy="140" r="4.5" fill="#a855f7" class="pulse-node" />
+    <circle cx="730" cy="85" r="6" fill="#00ea64" class="pulse-node" filter="url(#waveGlow)" />
+    <circle cx="840" cy="120" r="4.5" fill="#00ea64" class="pulse-node" />
+    <circle cx="930" cy="95" r="5" fill="#00ea64" class="pulse-node" />
+
+    <!-- Active Peak Tooltip Callout on Highest Spike (August/September) -->
+    <g transform="translate(730, 48)">
+      <rect x="-65" y="-18" width="130" height="24" rx="5" fill="#161b22" stroke="#00ea64" stroke-width="1.4" filter="url(#waveGlow)" />
+      <text x="0" y="-3" text-anchor="middle" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" fill="#00ea64">🚀 184 COMMITS</text>
+      <polygon points="0,6 -5,0 5,0" fill="#00ea64" />
+    </g>
+
+  </g>
+</svg>

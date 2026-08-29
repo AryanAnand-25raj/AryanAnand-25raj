@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 135" width="100%" height="135">
+  <defs>
+    <!-- Background Track Gradient -->
+    <linearGradient id="bgGradRtlBold" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#040711" stop-opacity="0" />
+      <stop offset="20%" stop-color="#070c18" stop-opacity="0.98" />
+      <stop offset="80%" stop-color="#070c18" stop-opacity="0.98" />
+      <stop offset="100%" stop-color="#040711" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Bold Neon Circuit Track Glow -->
+    <linearGradient id="trackGradRtlBold" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0" />
+      <stop offset="25%" stop-color="#c084fc" stop-opacity="1" />
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="1" />
+      <stop offset="75%" stop-color="#2f81f7" stop-opacity="1" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Bold Hoverboard Plasma Jet Stream -->
+    <linearGradient id="jetPlasmaRtlBold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="20%" stop-color="#c084fc" stop-opacity="0.95" />
+      <stop offset="60%" stop-color="#38bdf8" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Glowing Filter -->
+    <filter id="boldGlowRtl" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes glideRtlBold {
+        0% { transform: translateX(1180px); }
+        100% { transform: translateX(-380px); }
+      }
+      @keyframes hoverBobRtlBold {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-6px) rotate(1.2deg); }
+      }
+      @keyframes thrusterPulseRtlBold {
+        0%, 100% { opacity: 0.85; transform: scaleX(1); }
+        50% { opacity: 1; transform: scaleX(1.2); }
+      }
+      .drive-group-rtl-bold {
+        animation: glideRtlBold 5.8s linear infinite;
+      }
+      .hover-group-rtl-bold {
+        animation: hoverBobRtlBold 1.3s ease-in-out infinite;
+      }
+      .thruster-pulse-bold {
+        animation: thrusterPulseRtlBold 0.5s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Track Base -->
+  <rect x="0" y="10" width="1000" height="115" rx="10" fill="url(#bgGradRtlBold)" stroke="#21262d" stroke-width="1.5" />
+  
+  <!-- Bold Neon Circuit Ground Tracks -->
+  <line x1="0" y1="110" x2="1000" y2="110" stroke="url(#trackGradRtlBold)" stroke-width="3" filter="url(#boldGlowRtl)" />
+  <line x1="60" y1="118" x2="940" y2="118" stroke="#38bdf8" stroke-width="1.8" stroke-dasharray="16 10" opacity="0.6" />
+
+  <!-- Speed Dust & Energy Nodes -->
+  <circle cx="800" cy="110" r="3.5" fill="#c084fc" filter="url(#boldGlowRtl)" />
+  <circle cx="500" cy="110" r="4" fill="#38bdf8" filter="url(#boldGlowRtl)" />
+  <circle cx="200" cy="110" r="3.5" fill="#a855f7" filter="url(#boldGlowRtl)" />
+
+  <!-- ==================== BOLD ANIMATED HOVERBOARD CODER (RTL) ==================== -->
+  <g class="drive-group-rtl-bold">
+    <!-- Native SMIL Translation for High Compatibility -->
+    <animateTransform attributeName="transform" type="translate" from="1180 0" to="-380 0" dur="5.8s" repeatCount="indefinite" />
+
+    <!-- Jet Stream Behind Moving Hoverboard -->
+    <path d="M 60,106 L 220,106" stroke="url(#jetPlasmaRtlBold)" stroke-width="6" filter="url(#boldGlowRtl)" class="thruster-pulse-bold" />
+    <path d="M 55,100 L 180,100" stroke="url(#jetPlasmaRtlBold)" stroke-width="2.5" opacity="0.85" />
+    <path d="M 65,112 L 190,112" stroke="url(#jetPlasmaRtlBold)" stroke-width="2.5" opacity="0.85" />
+
+    <!-- Floating Hover Group (Bobbing up/down, facing left) -->
+    <g class="hover-group-rtl-bold" transform="translate(0, 0)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="1.3s" repeatCount="indefinite" />
+
+      <!-- ==================== BOLD FUTURISTIC HOVERBOARD ==================== -->
+      <g transform="translate(45, 101)">
+        <!-- Hoverboard Underglow -->
+        <ellipse cx="-10" cy="10" rx="48" ry="5" fill="#a855f7" opacity="0.75" filter="url(#boldGlowRtl)" />
+
+        <!-- Main Hoverboard Deck -->
+        <rect x="-60" y="0" width="100" height="10" rx="5" fill="#0f172a" stroke="#c084fc" stroke-width="2.5" filter="url(#boldGlowRtl)" />
+        
+        <!-- Dual Plasma Thruster Rings -->
+        <ellipse cx="-40" cy="5" rx="8" ry="3.5" fill="#c084fc" />
+        <ellipse cx="22" cy="5" rx="8" ry="3.5" fill="#38bdf8" />
+        <circle cx="-40" cy="5" r="2.5" fill="#ffffff" />
+        <circle cx="22" cy="5" r="2.5" fill="#ffffff" />
+        <line x1="-30" y1="5" x2="12" y2="5" stroke="#38bdf8" stroke-width="2" stroke-dasharray="5 2.5" />
+      </g>
+
+      <!-- ==================== BOLD CODER CHARACTER (FACING LEFT) ==================== -->
+      <g transform="translate(25, 18)">
+        
+        <!-- Legs in Stance -->
+        <path d="M 16,65 L 10,83" stroke="#0f172a" stroke-width="7" stroke-linecap="round" />
+        <path d="M 28,65 L 38,83" stroke="#0f172a" stroke-width="7" stroke-linecap="round" />
+        <!-- Glowing Purple Sneakers -->
+        <rect x="2" y="81" width="15" height="6" rx="3" fill="#0f172a" stroke="#c084fc" stroke-width="1.8" />
+        <rect x="34" y="81" width="15" height="6" rx="3" fill="#0f172a" stroke="#c084fc" stroke-width="1.8" />
+
+        <!-- Bold Cyber Hoodie Jacket -->
+        <path d="M 10,36 L 10,65 L 36,65 L 36,36 Z" fill="#1e293b" stroke="#a855f7" stroke-width="2" />
+        <!-- Hoodie V-Neck & Zipper -->
+        <polygon points="18,36 23,48 28,36" fill="#c084fc" />
+        <line x1="23" y1="48" x2="23" y2="65" stroke="#c084fc" stroke-width="2" />
+
+        <!-- Arm 1: Holding Steaming Coffee Cup -->
+        <path d="M 34,40 L 42,48 L 34,56" stroke="#1e293b" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" />
+        <!-- Coffee Cup with Rising Steam -->
+        <g transform="translate(34, 52)">
+          <rect x="0" y="0" width="10" height="12" rx="2.5" fill="#38bdf8" stroke="#ffffff" stroke-width="0.8" />
+          <path d="M 10,3 C 14,3 14,9 10,9" stroke="#38bdf8" stroke-width="2" fill="none" />
+          <path d="M 3,-3 Q 6,-7 3,-11" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.9" />
+        </g>
+
+        <!-- Arm 2: Thumbs Up -->
+        <path d="M 12,40 L 0,46 L -5,42" stroke="#1e293b" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" />
+        <circle cx="-5" cy="42" r="4" fill="#fed7aa" />
+
+        <!-- Head / Neck -->
+        <rect x="19" y="30" width="6" height="7" fill="#fed7aa" />
+        <circle cx="22" cy="22" r="11.5" fill="#fed7aa" stroke="#a855f7" stroke-width="1.2" />
+
+        <!-- Dark Hair -->
+        <path d="M 34,20 C 35,10 30,6 22,6 C 15,6 11,10 11,18 C 15,14 20,13 26,15 C 31,16 32,18 34,20 Z" fill="#0f172a" />
+
+        <!-- Bold Glowing Purple Cyber Headphones -->
+        <path d="M 34,22 C 34,11 11,11 11,22" fill="none" stroke="#a855f7" stroke-width="3.5" />
+        <rect x="31" y="17" width="5.5" height="10" rx="2.5" fill="#a855f7" stroke="#ffffff" stroke-width="0.8" filter="url(#boldGlowRtl)" />
+        <rect x="8" y="17" width="5.5" height="10" rx="2.5" fill="#a855f7" stroke="#ffffff" stroke-width="0.8" filter="url(#boldGlowRtl)" />
+
+        <!-- Smart Glasses (Facing Left) -->
+        <rect x="13.5" y="18.5" width="6.5" height="5.5" rx="1.8" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+        <rect x="22" y="18.5" width="6.5" height="5.5" rx="1.8" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+        <line x1="20" y1="21" x2="22" y2="21" stroke="#38bdf8" stroke-width="1.5" />
+        
+        <!-- Eyes & Smile -->
+        <circle cx="16.5" cy="21.5" r="1.2" fill="#0f172a" />
+        <circle cx="25" cy="21.5" r="1.2" fill="#0f172a" />
+        <path d="M 18,27 Q 21.5,29.5 24,27" stroke="#9a3412" stroke-width="1.5" fill="none" stroke-linecap="round" />
+
+      </g>
+    </g>
+  </g>
+</svg>

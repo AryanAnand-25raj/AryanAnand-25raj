@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="divBgPro3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#070b14" stop-opacity="0" />
+      <stop offset="25%" stop-color="#0b172a" stop-opacity="0.95" />
+      <stop offset="75%" stop-color="#0b172a" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#070b14" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="streamGradPro3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <filter id="codeGlowPro3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseWarpPro {
+      0% { stroke-dashoffset: 200; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .warp-speed-beam {
+      stroke-dasharray: 30 50;
+      animation: pulseWarpPro 0.45s linear infinite;
+    }
+    .font-hud-div {
+      font-family: 'Orbitron', 'Segoe UI', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+  </style>
+
+  <!-- Container -->
+  <rect width="920" height="120" rx="12" fill="url(#divBgPro3)" stroke="#1e293b" stroke-width="1.2"/>
+
+  <!-- High-Speed Warp Streamlines (Professional Sapphire & Slate) -->
+  <g stroke="#38bdf8" opacity="0.65" class="warp-speed-beam">
+    <line x1="60" y1="35" x2="860" y2="35" stroke-width="1.5" />
+    <line x1="60" y1="60" x2="860" y2="60" stroke-width="2.5" stroke="#f8fafc" />
+    <line x1="60" y1="85" x2="860" y2="85" stroke-width="1.5" stroke="#60a5fa" />
+  </g>
+
+  <!-- Top & Bottom Rails -->
+  <line x1="40" y1="18" x2="880" y2="18" stroke="url(#streamGradPro3)" stroke-width="1.4" opacity="0.75"/>
+  <line x1="40" y1="102" x2="880" y2="102" stroke="url(#streamGradPro3)" stroke-width="1.4" opacity="0.75"/>
+
+  <text x="70" y="64" fill="#38bdf8" class="font-hud-div">&gt;&gt; TELEMETRY &amp; STATS STREAM</text>
+  <text x="850" y="64" text-anchor="end" fill="#818cf8" class="font-hud-div">&gt;&gt; STATUS: ALL SYSTEMS OPERATIONAL &gt;&gt;</text>
+</svg>

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 160" width="100%" height="160">
+  <defs>
+    <!-- Dark Synthwave Gradient -->
+    <linearGradient id="lofiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#060911" />
+    </linearGradient>
+
+    <!-- Equalizer Gradient -->
+    <linearGradient id="eqGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#2f81f7" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <filter id="lofiGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;800&amp;family=Inter:wght@600;700&amp;family=Fira+Code:wght@500;600&amp;display=swap');
+
+      .track-title {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 15px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        fill: #f0f6fc;
+      }
+
+      .track-artist {
+        font-family: 'Inter', sans-serif;
+        font-size: 12.5px;
+        font-weight: 600;
+        fill: #38bdf8;
+      }
+
+      .track-meta {
+        font-family: 'Fira Code', monospace;
+        font-size: 11px;
+        fill: #8b949e;
+      }
+
+      /* Equalizer Bar Keyframes */
+      @keyframes eq1 { 0%, 100% { height: 12px; } 50% { height: 38px; } }
+      @keyframes eq2 { 0%, 100% { height: 28px; } 50% { height: 10px; } }
+      @keyframes eq3 { 0%, 100% { height: 42px; } 50% { height: 18px; } }
+      @keyframes eq4 { 0%, 100% { height: 18px; } 50% { height: 44px; } }
+      @keyframes eq5 { 0%, 100% { height: 34px; } 50% { height: 14px; } }
+      @keyframes eq6 { 0%, 100% { height: 10px; } 50% { height: 36px; } }
+
+      .bar1 { animation: eq1 0.8s ease-in-out infinite; }
+      .bar2 { animation: eq2 0.7s ease-in-out infinite; }
+      .bar3 { animation: eq3 0.9s ease-in-out infinite; }
+      .bar4 { animation: eq4 0.6s ease-in-out infinite; }
+      .bar5 { animation: eq5 0.85s ease-in-out infinite; }
+      .bar6 { animation: eq6 0.75s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1000" height="160" rx="14" fill="url(#lofiBg)" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Left Vinyl / Album Art Emblem -->
+  <g transform="translate(30, 25)">
+    <!-- Vinyl Disc -->
+    <rect width="110" height="110" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.2" />
+    <circle cx="55" cy="55" r="42" fill="#161b22" stroke="#a855f7" stroke-width="1.8" filter="url(#lofiGlow)" />
+    <circle cx="55" cy="55" r="28" fill="#0d1117" stroke="#38bdf8" stroke-width="1.2" />
+    <circle cx="55" cy="55" r="12" fill="#38bdf8" />
+    <circle cx="55" cy="55" r="4" fill="#ffffff" />
+  </g>
+
+  <!-- Track Info & Telemetry -->
+  <g transform="translate(160, 48)">
+    <text x="0" y="0" class="track-title">CODING IN FLOW STATE  🎧</text>
+    <text x="0" y="24" class="track-artist">Synthwave &amp; Cyber Lofi Beats // 128 BPM</text>
+    <text x="0" y="48" class="track-meta">
+      <tspan fill="#00ea64">▶ NOW PLAYING</tspan>  •  Focus Level: <tspan fill="#facc15">MAX</tspan>  •  IDE: VS Code &amp; Neovim
+    </text>
+  </g>
+
+  <!-- Right Animated Equalizer Visualizer Bars -->
+  <g transform="translate(860, 105)">
+    <!-- Bar 1 -->
+    <rect x="0" y="-12" width="6" height="12" rx="3" fill="url(#eqGrad)" class="bar1" />
+    <!-- Bar 2 -->
+    <rect x="12" y="-28" width="6" height="28" rx="3" fill="url(#eqGrad)" class="bar2" />
+    <!-- Bar 3 -->
+    <rect x="24" y="-42" width="6" height="42" rx="3" fill="url(#eqGrad)" class="bar3" filter="url(#lofiGlow)" />
+    <!-- Bar 4 -->
+    <rect x="36" y="-18" width="6" height="18" rx="3" fill="url(#eqGrad)" class="bar4" />
+    <!-- Bar 5 -->
+    <rect x="48" y="-34" width="6" height="34" rx="3" fill="url(#eqGrad)" class="bar5" filter="url(#lofiGlow)" />
+    <!-- Bar 6 -->
+    <rect x="60" y="-10" width="6" height="10" rx="3" fill="url(#eqGrad)" class="bar6" />
+    <!-- Bar 7 -->
+    <rect x="72" y="-28" width="6" height="28" rx="3" fill="url(#eqGrad)" class="bar2" />
+    <!-- Bar 8 -->
+    <rect x="84" y="-18" width="6" height="18" rx="3" fill="url(#eqGrad)" class="bar4" />
+  </g>
+</svg>

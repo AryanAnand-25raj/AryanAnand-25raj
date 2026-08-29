@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 195" width="380" height="195">
+  <defs>
+    <!-- Background Dark Gradient -->
+    <linearGradient id="langCardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#070c14" />
+    </linearGradient>
+
+    <!-- Glowing Progress Bar Gradients -->
+    <linearGradient id="langPy" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+
+    <linearGradient id="langTs" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#facc15" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+
+    <linearGradient id="langGo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#7e22ce" />
+    </linearGradient>
+
+    <linearGradient id="langHtml" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ea64" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&amp;family=Fira+Code:wght@500;600&amp;display=swap');
+
+      .card-title {
+        font-family: 'Inter', sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+        fill: #2f81f7;
+      }
+
+      .lang-name {
+        font-family: 'Inter', sans-serif;
+        font-size: 12.5px;
+        font-weight: 600;
+        fill: #f0f6fc;
+      }
+
+      .lang-pct {
+        font-family: 'Fira Code', monospace;
+        font-size: 12px;
+        font-weight: 600;
+        fill: #8b949e;
+      }
+    </style>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="380" height="195" rx="10" fill="url(#langCardBg)" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Title -->
+  <g transform="translate(25, 34)">
+    <text x="0" y="0" class="card-title">Most Used Languages</text>
+  </g>
+
+  <!-- Single Top Segmented Progress Bar -->
+  <g transform="translate(25, 52)">
+    <rect width="330" height="8" rx="4" fill="#161b22" />
+    <!-- Python (54%) -->
+    <rect width="178" height="8" rx="4" fill="#38bdf8" />
+    <!-- JS/TS (24%) -->
+    <rect x="180" width="79" height="8" rx="4" fill="#facc15" />
+    <!-- Go/C++ (14%) -->
+    <rect x="261" width="46" height="8" rx="4" fill="#a855f7" />
+    <!-- HTML/CSS (8%) -->
+    <rect x="309" width="21" height="8" rx="4" fill="#00ea64" />
+  </g>
+
+  <!-- Languages List (2 Columns) -->
+  <g transform="translate(25, 86)">
+    
+    <!-- Row 1: Python -->
+    <g transform="translate(0, 0)">
+      <circle cx="5" cy="0" r="4.5" fill="#38bdf8" />
+      <text x="16" y="4" class="lang-name">Python</text>
+      <text x="100" y="4" class="lang-pct">54.2%</text>
+    </g>
+
+    <!-- Row 1 Right: TypeScript / JS -->
+    <g transform="translate(170, 0)">
+      <circle cx="5" cy="0" r="4.5" fill="#facc15" />
+      <text x="16" y="4" class="lang-name">JavaScript/TS</text>
+      <text x="120" y="4" class="lang-pct">24.1%</text>
+    </g>
+
+    <!-- Row 2: Go / C++ -->
+    <g transform="translate(0, 36)">
+      <circle cx="5" cy="0" r="4.5" fill="#a855f7" />
+      <text x="16" y="4" class="lang-name">Go &amp; C++</text>
+      <text x="100" y="4" class="lang-pct">13.8%</text>
+    </g>
+
+    <!-- Row 2 Right: HTML & CSS -->
+    <g transform="translate(170, 36)">
+      <circle cx="5" cy="0" r="4.5" fill="#00ea64" />
+      <text x="16" y="4" class="lang-name">HTML &amp; CSS</text>
+      <text x="120" y="4" class="lang-pct">7.9%</text>
+    </g>
+
+  </g>
+</svg>

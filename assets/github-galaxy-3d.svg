@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="100%" height="480">
+  <defs>
+    <!-- Deep Space Cyber Gradient Background -->
+    <linearGradient id="galaxyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04060f" />
+      <stop offset="50%" stop-color="#080d1a" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+
+    <!-- Isometric Grid Surface Gradient -->
+    <linearGradient id="gridSurface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Glowing Pillar 3D Gradients -->
+    <linearGradient id="pillarBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+
+    <linearGradient id="pillarPurple" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#7e22ce" />
+    </linearGradient>
+
+    <linearGradient id="pillarGreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00ea64" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+
+    <linearGradient id="radarFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#facc15" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.15" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="galaxyGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="starGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&amp;family=Inter:wght@600;700;800&amp;family=Fira+Code:wght@500;700&amp;display=swap');
+
+      .galaxy-title {
+        font-family: 'Orbitron', 'Inter', sans-serif;
+        font-size: 26px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        fill: #f0f6fc;
+      }
+
+      .radar-label {
+        font-family: 'Inter', sans-serif;
+        font-size: 11.5px;
+        font-weight: 700;
+        fill: #cbd5e1;
+      }
+
+      .caption-text {
+        font-family: 'Fira Code', monospace;
+        font-size: 11.5px;
+        fill: #8b949e;
+      }
+
+      @keyframes pulseRadar {
+        0%, 100% { transform: scale(1); opacity: 0.85; }
+        50% { transform: scale(1.04); opacity: 1; }
+      }
+
+      @keyframes starTwinkle {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 1; }
+      }
+
+      @keyframes pillarBounce {
+        0%, 100% { transform: scaleY(1); }
+        50% { transform: scaleY(1.08); }
+      }
+
+      .anim-radar {
+        animation: pulseRadar 3s ease-in-out infinite;
+        transform-origin: 790px 180px;
+      }
+
+      .star-blink {
+        animation: starTwinkle 2s ease-in-out infinite;
+      }
+
+      .pillar-anim {
+        animation: pillarBounce 2.5s ease-in-out infinite;
+        transform-origin: bottom;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base Canvas -->
+  <rect width="1000" height="480" rx="16" fill="url(#galaxyBg)" stroke="#30363d" stroke-width="1.8" />
+
+  <!-- Star Constellations in Deep Space -->
+  <g fill="#ffffff">
+    <circle cx="120" cy="60" r="1.5" class="star-blink" opacity="0.6" />
+    <circle cx="280" cy="40" r="2" class="star-blink" filter="url(#starGlow)" />
+    <circle cx="450" cy="80" r="1.2" opacity="0.5" />
+    <circle cx="620" cy="45" r="1.8" class="star-blink" />
+    <circle cx="920" cy="65" r="1.5" opacity="0.7" />
+    <circle cx="80" cy="380" r="1.5" opacity="0.6" />
+    <circle cx="200" cy="430" r="2" class="star-blink" />
+    <circle cx="700" cy="420" r="1.2" opacity="0.4" />
+    <circle cx="890" cy="430" r="1.8" class="star-blink" filter="url(#starGlow)" />
+  </g>
+
+  <!-- Top Title Banner -->
+  <g transform="translate(500, 45)" text-anchor="middle">
+    <text x="0" y="0" class="galaxy-title">🌌 ARYAN'S GITHUB GALAXY 🌌</text>
+    <text x="0" y="24" class="caption-text" fill="#38bdf8">&gt;&gt; ISOMETRIC 3D CONTRIBUTION ARCHITECTURE &amp; RADAR TELEMETRY</text>
+  </g>
+
+  <!-- Top Right Timeframe Badge -->
+  <g transform="translate(810, 25)">
+    <rect width="150" height="26" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="75" y="17" text-anchor="middle" font-family="'Fira Code', monospace" font-size="10.5" fill="#8b949e">2025-2026 // LIVE</text>
+  </g>
+
+  <!-- ==================== 1. ISOMETRIC 3D CONTRIBUTION RUNWAY / GALAXY GRID ==================== -->
+  <g transform="translate(80, 110)">
+    
+    <!-- Isometric Grid Plane -->
+    <g transform="translate(340, 180) rotate(-28) skewX(-32) scale(0.9, 0.55)">
+      
+      <!-- Base Runway Plane -->
+      <rect x="-380" y="-120" width="760" height="240" rx="8" fill="url(#gridSurface)" stroke="#2f81f7" stroke-width="2" filter="url(#galaxyGlow)" opacity="0.8" />
+      
+      <!-- Grid Matrix Lines -->
+      <line x1="-320" y1="-120" x2="-320" y2="120" stroke="#30363d" stroke-width="1.2" />
+      <line x1="-260" y1="-120" x2="-260" y2="120" stroke="#30363d" stroke-width="1.2" />
+      <line x1="-200" y1="-120" x2="-200" y2="120" stroke="#30363d" stroke-width="1.2" />
+      <line x1="-140" y1="-120" x2="-140" y2="120" stroke="#30363d" stroke-width="1.2" />
+      <line x1="-80" y1="-120" x2="-80" y2="120" stroke="#30363d" stroke-width="1.2" />
+      <line x1="-20" y1="-120" x2="-20" y2="120" stroke="#30363d" stroke-width="1.2" />
+      <line x1="40" y1="-120" x2="40" y2="120" stroke="#30363d" stroke-width="1.2" />
+      <line x1="100" y1="-120" x2="100" y2="120" stroke="#30363d" stroke-width="1.2" />
+      <line x1="160" y1="-120" x2="160" y2="120" stroke="#30363d" stroke-width="1.2" />
+      <line x1="220" y1="-120" x2="220" y2="120" stroke="#30363d" stroke-width="1.2" />
+      <line x1="280" y1="-120" x2="280" y2="120" stroke="#30363d" stroke-width="1.2" />
+      
+      <line x1="-380" y1="-80" x2="380" y2="-80" stroke="#30363d" stroke-width="1.2" />
+      <line x1="-380" y1="-40" x2="380" y2="-40" stroke="#30363d" stroke-width="1.2" />
+      <line x1="-380" y1="0" x2="380" y2="0" stroke="#30363d" stroke-width="1.2" />
+      <line x1="-380" y1="40" x2="380" y2="40" stroke="#30363d" stroke-width="1.2" />
+      <line x1="-380" y1="80" x2="380" y2="80" stroke="#30363d" stroke-width="1.2" />
+
+      <!-- Active Contribution Tiles -->
+      <rect x="-315" y="-35" width="50" height="30" rx="3" fill="#1e3a8a" opacity="0.8" />
+      <rect x="-195" y="5" width="50" height="30" rx="3" fill="#2563eb" opacity="0.9" />
+      <rect x="-75" y="-75" width="50" height="30" rx="3" fill="#38bdf8" />
+      <rect x="45" y="-35" width="50" height="30" rx="3" fill="#60a5fa" />
+      <rect x="165" y="45" width="50" height="30" rx="3" fill="#00ea64" opacity="0.9" />
+      <rect x="225" y="-35" width="50" height="30" rx="3" fill="#38bdf8" />
+    </g>
+
+    <!-- ==================== 3D ISOMETRIC COMMIT PILLARS ==================== -->
+    <!-- Pillar 1 (Tall Cyan Peak) -->
+    <g transform="translate(420, 160)" class="pillar-anim">
+      <polygon points="0,0 24,-12 24,-110 0,-98" fill="url(#pillarBlue)" stroke="#38bdf8" stroke-width="1" />
+      <polygon points="24,-12 48,0 48,-98 24,-110" fill="#1e40af" stroke="#38bdf8" stroke-width="1" />
+      <polygon points="0,-98 24,-110 48,-98 24,-86" fill="#93c5fd" stroke="#ffffff" stroke-width="1.2" filter="url(#galaxyGlow)" />
+    </g>
+
+    <!-- Pillar 2 (Medium Purple Pillar) -->
+    <g transform="translate(340, 200)">
+      <polygon points="0,0 20,-10 20,-75 0,-65" fill="url(#pillarPurple)" stroke="#c084fc" stroke-width="1" />
+      <polygon points="20,-10 40,0 40,-65 20,-75" fill="#581c87" stroke="#c084fc" stroke-width="1" />
+      <polygon points="0,-65 20,-75 40,-65 20,-55" fill="#e9d5ff" stroke="#ffffff" stroke-width="1" />
+    </g>
+
+    <!-- Pillar 3 (Green Pillar) -->
+    <g transform="translate(530, 240)">
+      <polygon points="0,0 20,-10 20,-50 0,-40" fill="url(#pillarGreen)" stroke="#00ea64" stroke-width="1" />
+      <polygon points="20,-10 40,0 40,-40 20,-50" fill="#064e3b" stroke="#00ea64" stroke-width="1" />
+      <polygon points="0,-40 20,-50 40,-40 20,-30" fill="#6ee7b7" stroke="#ffffff" stroke-width="1" />
+    </g>
+
+    <!-- Pillar 4 (Small Blue Pillar) -->
+    <g transform="translate(240, 160)">
+      <polygon points="0,0 16,-8 16,-35 0,-27" fill="url(#pillarBlue)" stroke="#38bdf8" stroke-width="0.8" />
+      <polygon points="16,-8 32,0 32,-27 16,-35" fill="#1e40af" stroke="#38bdf8" stroke-width="0.8" />
+      <polygon points="0,-27 16,-35 32,-27 16,-19" fill="#93c5fd" />
+    </g>
+  </g>
+
+  <!-- ==================== 2. DONUT LANGUAGE CHART (BOTTOM LEFT) ==================== -->
+  <g transform="translate(100, 310)">
+    <circle cx="50" cy="50" r="42" fill="none" stroke="#161b22" stroke-width="22" />
+    <circle cx="50" cy="50" r="42" fill="none" stroke="#38bdf8" stroke-width="22" stroke-dasharray="145 264" stroke-dashoffset="0" />
+    <circle cx="50" cy="50" r="42" fill="none" stroke="#facc15" stroke-width="22" stroke-dasharray="64 264" stroke-dashoffset="-145" />
+    <circle cx="50" cy="50" r="42" fill="none" stroke="#a855f7" stroke-width="22" stroke-dasharray="38 264" stroke-dashoffset="-209" />
+    <circle cx="50" cy="50" r="42" fill="none" stroke="#00ea64" stroke-width="22" stroke-dasharray="21 264" stroke-dashoffset="-247" />
+
+    <!-- Donut Legend -->
+    <g transform="translate(115, 10)">
+      <rect x="0" y="4" width="10" height="10" rx="2" fill="#38bdf8" />
+      <text x="16" y="13" font-family="'Fira Code', monospace" font-size="11" fill="#f0f6fc">Python <tspan fill="#8b949e">54%</tspan></text>
+
+      <rect x="0" y="24" width="10" height="10" rx="2" fill="#facc15" />
+      <text x="16" y="33" font-family="'Fira Code', monospace" font-size="11" fill="#f0f6fc">JS / TS <tspan fill="#8b949e">24%</tspan></text>
+
+      <rect x="0" y="44" width="10" height="10" rx="2" fill="#a855f7" />
+      <text x="16" y="53" font-family="'Fira Code', monospace" font-size="11" fill="#f0f6fc">Go / C++ <tspan fill="#8b949e">14%</tspan></text>
+
+      <rect x="0" y="64" width="10" height="10" rx="2" fill="#00ea64" />
+      <text x="16" y="73" font-family="'Fira Code', monospace" font-size="11" fill="#f0f6fc">HTML/CSS <tspan fill="#8b949e">8%</tspan></text>
+    </g>
+  </g>
+
+  <!-- ==================== 3. SPIDER RADAR ACTIVITY CHART (TOP RIGHT) ==================== -->
+  <g transform="translate(790, 180)">
+    <polygon points="0,-80 76,-25 47,65 -47,65 -76,-25" fill="none" stroke="#21262d" stroke-width="1.2" />
+    <polygon points="0,-60 57,-18 35,49 -35,49 -57,-18" fill="none" stroke="#21262d" stroke-width="1" />
+    <polygon points="0,-40 38,-12 24,32 -24,32 -38,-12" fill="none" stroke="#21262d" stroke-width="1" />
+    <polygon points="0,-20 19,-6 12,16 -12,16 -19,-6" fill="none" stroke="#21262d" stroke-width="1" />
+
+    <line x1="0" y1="0" x2="0" y2="-80" stroke="#30363d" stroke-width="1.2" />
+    <line x1="0" y1="0" x2="76" y2="-25" stroke="#30363d" stroke-width="1.2" />
+    <line x1="0" y1="0" x2="47" y2="65" stroke="#30363d" stroke-width="1.2" />
+    <line x1="0" y1="0" x2="-47" y2="65" stroke="#30363d" stroke-width="1.2" />
+    <line x1="0" y1="0" x2="-76" y2="-25" stroke="#30363d" stroke-width="1.2" />
+
+    <!-- Active High-Performance Radar Polygon -->
+    <polygon points="0,-72 65,-20 40,50 -38,55 -68,-22" fill="url(#radarFill)" stroke="#facc15" stroke-width="2.5" class="anim-radar" filter="url(#galaxyGlow)" />
+
+    <circle cx="0" cy="-72" r="3.5" fill="#facc15" />
+    <circle cx="65" cy="-20" r="3.5" fill="#facc15" />
+    <circle cx="40" cy="50" r="3.5" fill="#facc15" />
+    <circle cx="-38" cy="55" r="3.5" fill="#facc15" />
+    <circle cx="-68" cy="-22" r="3.5" fill="#facc15" />
+
+    <text x="0" y="-90" text-anchor="middle" class="radar-label">Commit ⚡</text>
+    <text x="92" y="-20" text-anchor="start" class="radar-label">Issue</text>
+    <text x="56" y="80" text-anchor="start" class="radar-label">PullReq</text>
+    <text x="-56" y="80" text-anchor="end" class="radar-label">Review</text>
+    <text x="-92" y="-20" text-anchor="end" class="radar-label">Repo 🚀</text>
+  </g>
+
+  <!-- ==================== 4. BOTTOM TELEMETRY BAR ==================== -->
+  <g transform="translate(500, 440)" text-anchor="middle">
+    <text x="0" y="0" font-family="'Orbitron', sans-serif" font-size="15" font-weight="800" fill="#f0f6fc">
+      <tspan fill="#facc15">2,148</tspan> Contributions  •  
+      <tspan fill="#38bdf8">⭐ 42+</tspan> Stars  •  
+      <tspan fill="#00ea64">🔀 18</tspan> PRs Merged  •  
+      <tspan fill="#a855f7">🏆 Top Tier Developer</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 150" width="100%" height="100%">
+  <defs>
+    <linearGradient id="divBg2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#02040a" stop-opacity="0" />
+      <stop offset="20%" stop-color="#0e0a24" stop-opacity="0.95" />
+      <stop offset="80%" stop-color="#0e0a24" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#02040a" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="nitroGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f" />
+      <stop offset="50%" stop-color="#7928ca" />
+      <stop offset="100%" stop-color="#00f2fe" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="porscheDriftCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0c192c" />
+      <stop offset="40%" stop-color="#1e3a5f" />
+      <stop offset="60%" stop-color="#0f2847" />
+      <stop offset="100%" stop-color="#050d18" />
+    </linearGradient>
+
+    <linearGradient id="porscheDriftPink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#240c1e" />
+      <stop offset="40%" stop-color="#4a153b" />
+      <stop offset="60%" stop-color="#2c0f24" />
+      <stop offset="100%" stop-color="#12050e" />
+    </linearGradient>
+
+    <filter id="driftGlow2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes driftDownPorscheLeft {
+      0% { transform: translate(320px, -70px) rotate(-10deg); opacity: 0; }
+      18% { opacity: 1; }
+      50% { transform: translate(360px, 35px) rotate(14deg); }
+      82% { opacity: 1; }
+      100% { transform: translate(325px, 160px) rotate(0deg); opacity: 0; }
+    }
+    @keyframes driftDownPorscheRight {
+      0% { transform: translate(590px, -75px) rotate(12deg); opacity: 0; }
+      18% { opacity: 1; }
+      50% { transform: translate(540px, 40px) rotate(-15deg); }
+      82% { opacity: 1; }
+      100% { transform: translate(575px, 165px) rotate(-2deg); opacity: 0; }
+    }
+    @keyframes pulseCircuit {
+      0%, 100% { stroke-opacity: 0.3; }
+      50% { stroke-opacity: 0.85; }
+    }
+
+    .porsche-drift-1 {
+      animation: driftDownPorscheLeft 3.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    .porsche-drift-2 {
+      animation: driftDownPorscheRight 3.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      animation-delay: -1.6s;
+    }
+    .circuit-lines-2 {
+      animation: pulseCircuit 2.2s ease-in-out infinite;
+    }
+    .hud-text-2 {
+      font-family: 'Orbitron', 'Segoe UI', monospace;
+      font-size: 10px;
+      letter-spacing: 2px;
+      fill: #ff007f;
+      font-weight: 700;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="920" height="150" fill="url(#divBg2)" rx="12"/>
+
+  <!-- Neural AI Track Cyber Lines -->
+  <g stroke="#7928ca" stroke-width="1.2" opacity="0.4" class="circuit-lines-2">
+    <path d="M 60,75 L 220,75 L 260,30 L 660,30 L 700,75 L 860,75" fill="none" stroke-dasharray="12 6" />
+    <path d="M 60,75 L 220,75 L 260,120 L 660,120 L 700,75 L 860,75" fill="none" stroke-dasharray="12 6" stroke="#00f2fe" opacity="0.6"/>
+  </g>
+
+  <!-- Track Borders -->
+  <line x1="50" y1="20" x2="870" y2="20" stroke="#ff007f" stroke-width="1.6" opacity="0.7"/>
+  <line x1="50" y1="130" x2="870" y2="130" stroke="#00f2fe" stroke-width="1.6" opacity="0.7"/>
+
+  <!-- HUD Telemetry -->
+  <g class="hud-text-2">
+    <text x="70" y="80">&gt;&gt; STAGE 02 // DUAL PORSCHE 911 DRIFT VECTOR</text>
+    <text x="850" y="80" text-anchor="end" fill="#00f2fe">&gt;&gt; AI TORQUE VECTORING ENGAGED &gt;&gt;</text>
+  </g>
+
+  <!-- Porsche 1: Cyan Metallic 911 GT3 RS -->
+  <g class="porsche-drift-1">
+    <!-- Nitro Exhaust Flare -->
+    <path d="M -12,-50 L 0,-10 L 12,-50 Z" fill="url(#nitroGrad)" opacity="0.85" filter="url(#driftGlow2)"/>
+    <!-- Tire Skid Marks -->
+    <path d="M -20,-30 Q -10,10 -22,40" stroke="#00f2fe" stroke-width="2.5" fill="none" opacity="0.4" stroke-dasharray="6 4"/>
+    <path d="M 20,-30 Q 30,10 18,40" stroke="#00f2fe" stroke-width="2.5" fill="none" opacity="0.4" stroke-dasharray="6 4"/>
+
+    <!-- Car Drop Shadow -->
+    <ellipse cx="0" cy="18" rx="26" ry="42" fill="#000000" opacity="0.85"/>
+
+    <!-- Porsche Bodywork -->
+    <path d="M 0,-40 C 12,-40 20,-30 21,-16 C 22,-2 17,6 23,18 C 26,24 24,36 17,42 C 9,46 -9,46 -17,42 C -24,36 -26,24 -23,18 C -17,6 -22,-2 -21,-16 C -20,-30 -12,-40 0,-40 Z" 
+          fill="url(#porscheDriftCyan)" stroke="#00f2fe" stroke-width="1.4" filter="url(#driftGlow2)"/>
+    
+    <!-- Windshield -->
+    <path d="M 0,-20 C 9,-20 13,-12 12,0 C 11,12 10,18 0,20 C -10,18 -11,12 -12,0 C -13,-12 -9,-20 0,-20 Z" fill="#041226" stroke="#38bdf8" stroke-width="1"/>
+    
+    <!-- Rear GT Wing -->
+    <rect x="-24" y="36" width="48" height="4" rx="2" fill="#050814" stroke="#00f2fe" stroke-width="1"/>
+
+    <!-- Porsche 4-Point Matrix LED Glare (Heading Down) -->
+    <circle cx="-12" cy="-34" r="2" fill="#ffffff" filter="url(#driftGlow2)"/>
+    <circle cx="12" cy="-34" r="2" fill="#ffffff" filter="url(#driftGlow2)"/>
+    <!-- Slim Full-Width Rear Red Lightbar -->
+    <path d="M -16,40 Q 0,43 16,40" stroke="#ff007f" stroke-width="2.5" fill="none"/>
+  </g>
+
+  <!-- Porsche 2: Magenta / Deep Space Purple 911 GT3 RS -->
+  <g class="porsche-drift-2">
+    <!-- Nitro Exhaust Flare -->
+    <path d="M -12,-50 L 0,-10 L 12,-50 Z" fill="url(#nitroGrad)" opacity="0.85" filter="url(#driftGlow2)"/>
+    <!-- Tire Skid Marks -->
+    <path d="M -20,-30 Q -30,10 -18,40" stroke="#ff007f" stroke-width="2.5" fill="none" opacity="0.4" stroke-dasharray="6 4"/>
+    <path d="M 20,-30 Q 10,10 22,40" stroke="#ff007f" stroke-width="2.5" fill="none" opacity="0.4" stroke-dasharray="6 4"/>
+
+    <!-- Car Drop Shadow -->
+    <ellipse cx="0" cy="18" rx="26" ry="42" fill="#000000" opacity="0.85"/>
+
+    <!-- Porsche Bodywork -->
+    <path d="M 0,-40 C 12,-40 20,-30 21,-16 C 22,-2 17,6 23,18 C 26,24 24,36 17,42 C 9,46 -9,46 -17,42 C -24,36 -26,24 -23,18 C -17,6 -22,-2 -21,-16 C -20,-30 -12,-40 0,-40 Z" 
+          fill="url(#porscheDriftPink)" stroke="#ff007f" stroke-width="1.4" filter="url(#driftGlow2)"/>
+    
+    <!-- Windshield -->
+    <path d="M 0,-20 C 9,-20 13,-12 12,0 C 11,12 10,18 0,20 C -10,18 -11,12 -12,0 C -13,-12 -9,-20 0,-20 Z" fill="#1f0717" stroke="#ff007f" stroke-width="1"/>
+    
+    <!-- Rear GT Wing -->
+    <rect x="-24" y="36" width="48" height="4" rx="2" fill="#050814" stroke="#ff007f" stroke-width="1"/>
+
+    <!-- Porsche 4-Point Matrix LED Glare -->
+    <circle cx="-12" cy="-34" r="2" fill="#ffffff" filter="url(#driftGlow2)"/>
+    <circle cx="12" cy="-34" r="2" fill="#ffffff" filter="url(#driftGlow2)"/>
+    <!-- Slim Full-Width Rear Red Lightbar -->
+    <path d="M -16,40 Q 0,43 16,40" stroke="#ff007f" stroke-width="2.5" fill="none"/>
+  </g>
+</svg>

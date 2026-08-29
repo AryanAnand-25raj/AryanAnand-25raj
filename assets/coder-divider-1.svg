@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="divBgPro1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#070b14" stop-opacity="0" />
+      <stop offset="20%" stop-color="#0d1527" stop-opacity="0.95" />
+      <stop offset="80%" stop-color="#0d1527" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#070b14" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="streamGradPro1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <filter id="codeGlowFilterPro" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseNodePro {
+      0%, 100% { r: 5; opacity: 0.85; }
+      50% { r: 7; opacity: 1; filter: drop-shadow(0 0 8px #38bdf8); }
+    }
+    @keyframes laserDashMovePro {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -100; }
+    }
+    @keyframes blinkCmdPro {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .git-node {
+      animation: pulseNodePro 2s ease-in-out infinite;
+    }
+    .pipeline-stream {
+      stroke-dasharray: 12 8;
+      animation: laserDashMovePro 0.9s linear infinite;
+    }
+    .cmd-cursor {
+      animation: blinkCmdPro 0.8s infinite;
+    }
+    .font-code {
+      font-family: 'Fira Code', 'Consolas', monospace;
+      font-size: 11px;
+    }
+  </style>
+
+  <!-- Container -->
+  <rect width="920" height="120" rx="12" fill="url(#divBgPro1)" stroke="#1e293b" stroke-width="1.2"/>
+
+  <!-- Top & Bottom Laser Lines -->
+  <line x1="40" y1="18" x2="880" y2="18" stroke="url(#streamGradPro1)" stroke-width="1.4" opacity="0.75"/>
+  <line x1="40" y1="102" x2="880" y2="102" stroke="url(#streamGradPro1)" stroke-width="1.4" opacity="0.75"/>
+
+  <!-- Git Flow Branch Line -->
+  <path d="M 60,60 L 220,60 Q 250,60 270,40 L 420,40 Q 440,40 460,60 L 640,60 Q 660,60 680,80 L 800,80 L 860,60" 
+        fill="none" 
+        stroke="url(#streamGradPro1)" 
+        stroke-width="2.2" 
+        class="pipeline-stream" 
+        filter="url(#codeGlowFilterPro)"/>
+
+  <!-- Git Flow Commit Nodes (Professional Palette) -->
+  <circle cx="220" cy="60" r="5" fill="#38bdf8" class="git-node" filter="url(#codeGlowFilterPro)"/>
+  <circle cx="420" cy="40" r="5" fill="#60a5fa" class="git-node" filter="url(#codeGlowFilterPro)"/>
+  <circle cx="640" cy="60" r="5" fill="#818cf8" class="git-node" filter="url(#codeGlowFilterPro)"/>
+  <circle cx="800" cy="80" r="5" fill="#34d399" class="git-node" filter="url(#codeGlowFilterPro)"/>
+
+  <!-- Terminal Labels -->
+  <g class="font-code" fill="#94a3b8">
+    <text x="60" y="42" fill="#38bdf8">&gt;&gt; git checkout -b feature/production-scale</text>
+    <text x="460" y="32" fill="#60a5fa">git commit -m "feat: cloud architecture"</text>
+    <text x="860" y="42" text-anchor="end" fill="#34d399">✓ build passing<tspan class="cmd-cursor" fill="#38bdf8">_</tspan></text>
+  </g>
+</svg>

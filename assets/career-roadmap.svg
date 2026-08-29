@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="380">
+  <defs>
+    <!-- Dark Canvas Background Gradient -->
+    <linearGradient id="roadBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c16" />
+      <stop offset="50%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#070a12" />
+    </linearGradient>
+
+    <!-- Glowing Connecting Pipeline Gradient -->
+    <linearGradient id="roadPipe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="20%" stop-color="#2f81f7" />
+      <stop offset="40%" stop-color="#a855f7" />
+      <stop offset="60%" stop-color="#facc15" />
+      <stop offset="80%" stop-color="#00ea64" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <filter id="roadGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;800;900&amp;family=Inter:wght@600;700;800&amp;family=Fira+Code:wght@500;600;700&amp;display=swap');
+
+      .road-title {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 17px;
+        font-weight: 800;
+        letter-spacing: 1.5px;
+        fill: #f0f6fc;
+      }
+
+      .node-year {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 15px;
+        font-weight: 900;
+      }
+
+      .node-role {
+        font-family: 'Inter', sans-serif;
+        font-size: 12.5px;
+        font-weight: 700;
+        fill: #f0f6fc;
+      }
+
+      .node-desc {
+        font-family: 'Inter', sans-serif;
+        font-size: 11px;
+        fill: #8b949e;
+      }
+
+      .node-tech {
+        font-family: 'Fira Code', monospace;
+        font-size: 10px;
+        font-weight: 600;
+      }
+
+      @keyframes pulseActiveNode {
+        0%, 100% { transform: scale(1); opacity: 0.85; }
+        50% { transform: scale(1.25); opacity: 1; }
+      }
+
+      .active-pulse-node {
+        animation: pulseActiveNode 2s ease-in-out infinite;
+        transform-origin: 300px 115px;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base Canvas -->
+  <rect width="1200" height="380" rx="16" fill="url(#roadBg)" stroke="#30363d" stroke-width="1.8" />
+
+  <!-- Top Title Header -->
+  <g transform="translate(40, 40)">
+    <circle cx="6" cy="0" r="4.5" fill="#38bdf8" />
+    <text x="22" y="5" class="road-title">ENGINEERING ROADMAP &amp; CAREER MILESTONES (2025 - 2030+)</text>
+    <text x="740" y="5" font-family="'Fira Code', monospace" font-size="11" fill="#00ea64">[ STRATEGIC CAREER BLUEPRINT ]</text>
+  </g>
+
+  <!-- Connecting Highway Beam Line -->
+  <g transform="translate(0, 115)">
+    <!-- Grey Track Line -->
+    <line x1="80" y1="0" x2="1120" y2="0" stroke="#21262d" stroke-width="5" />
+    <!-- Gradient Laser Line -->
+    <line x1="80" y1="0" x2="1100" y2="0" stroke="url(#roadPipe)" stroke-width="5" filter="url(#roadGlow)" />
+  </g>
+
+  <!-- ==================== 6 STRATEGIC CAREER NODES ==================== -->
+
+  <!-- NODE 1: 2025 - Full Stack & Data Analysis -->
+  <g transform="translate(100, 0)">
+    <circle cx="0" cy="115" r="15" fill="#0d1117" stroke="#38bdf8" stroke-width="3" />
+    <circle cx="0" cy="115" r="6" fill="#38bdf8" />
+
+    <g transform="translate(-75, 150)">
+      <text x="0" y="0" class="node-year" fill="#38bdf8">2025</text>
+      <text x="0" y="20" class="node-role">Full-Stack &amp; Python Data</text>
+      <text x="0" y="38" class="node-desc">Full-Stack Web Development,</text>
+      <text x="0" y="54" class="node-desc">Data Analytics &amp; Python.</text>
+      <text x="0" y="74" class="node-tech" fill="#38bdf8">&gt; Web &amp; Data Mastery</text>
+    </g>
+  </g>
+
+  <!-- NODE 2: 2026 - Java, Django, Linux & Cloud (CURRENT ACTIVE SPRINT) -->
+  <g transform="translate(300, 0)">
+    <circle cx="0" cy="115" r="18" fill="#0d1117" stroke="#2f81f7" stroke-width="3.5" filter="url(#roadGlow)" />
+    <circle cx="0" cy="115" r="8" fill="#2f81f7" class="active-pulse-node" />
+
+    <g transform="translate(-75, 150)">
+      <text x="0" y="0" class="node-year" fill="#2f81f7">2026 ⚡</text>
+      <text x="0" y="20" class="node-role">Java, Django &amp; Cloud</text>
+      <text x="0" y="38" class="node-desc">Java, Python Django,</text>
+      <text x="0" y="54" class="node-desc">Linux Kernels &amp; Cloud.</text>
+      <text x="0" y="74" class="node-tech" fill="#2f81f7">&gt; Backend &amp; Linux OS</text>
+    </g>
+  </g>
+
+  <!-- NODE 3: 2027 - Docker, Kubernetes, SQL & Android -->
+  <g transform="translate(500, 0)">
+    <circle cx="0" cy="115" r="15" fill="#0d1117" stroke="#a855f7" stroke-width="3" />
+    <circle cx="0" cy="115" r="6" fill="#a855f7" />
+
+    <g transform="translate(-75, 150)">
+      <text x="0" y="0" class="node-year" fill="#a855f7">2027</text>
+      <text x="0" y="20" class="node-role">DevOps, SQL &amp; Android</text>
+      <text x="0" y="38" class="node-desc">Docker, Kubernetes (K8s),</text>
+      <text x="0" y="54" class="node-desc">SQL Databases &amp; Android.</text>
+      <text x="0" y="74" class="node-tech" fill="#a855f7">&gt; Containerization &amp; Apps</text>
+    </g>
+  </g>
+
+  <!-- NODE 4: 2028 - Spring Boot, GenAI & Cloud Apps -->
+  <g transform="translate(700, 0)">
+    <circle cx="0" cy="115" r="15" fill="#0d1117" stroke="#facc15" stroke-width="3" />
+    <circle cx="0" cy="115" r="6" fill="#facc15" />
+
+    <g transform="translate(-75, 150)">
+      <text x="0" y="0" class="node-year" fill="#facc15">2028</text>
+      <text x="0" y="20" class="node-role">Spring Boot &amp; GenAI</text>
+      <text x="0" y="38" class="node-desc">Spring Boot, Generative AI,</text>
+      <text x="0" y="54" class="node-desc">Full-Stack Cloud Apps.</text>
+      <text x="0" y="74" class="node-tech" fill="#facc15">&gt; Enterprise AI Scale</text>
+    </g>
+  </g>
+
+  <!-- NODE 5: 2029 - Cloud Job Role & Real-World Impact -->
+  <g transform="translate(900, 0)">
+    <circle cx="0" cy="115" r="15" fill="#0d1117" stroke="#00ea64" stroke-width="3" />
+    <circle cx="0" cy="115" r="6" fill="#00ea64" />
+
+    <g transform="translate(-75, 150)">
+      <text x="0" y="0" class="node-year" fill="#00ea64">2029</text>
+      <text x="0" y="20" class="node-role">Cloud Role &amp; Production</text>
+      <text x="0" y="38" class="node-desc">Industry Cloud Engineer,</text>
+      <text x="0" y="54" class="node-desc">Real-World Enterprise Systems.</text>
+      <text x="0" y="74" class="node-tech" fill="#00ea64">&gt; Real-World Cloud Impact</text>
+    </g>
+  </g>
+
+  <!-- NODE 6: 2030+ - Senior Cloud Architect & Beyond -->
+  <g transform="translate(1100, 0)">
+    <circle cx="0" cy="115" r="16" fill="#0d1117" stroke="#ec4899" stroke-width="3" filter="url(#roadGlow)" />
+    <circle cx="0" cy="115" r="6" fill="#ec4899" />
+
+    <g transform="translate(-75, 150)">
+      <text x="0" y="0" class="node-year" fill="#ec4899">2030+ 🚀</text>
+      <text x="0" y="20" class="node-role">Cloud Architect</text>
+      <text x="0" y="38" class="node-desc">Distributed Architecture,</text>
+      <text x="0" y="54" class="node-desc">Autonomous Cloud Systems.</text>
+      <text x="0" y="74" class="node-tech" fill="#ec4899">&gt; Global Scale &amp; Beyond</text>
+    </g>
+  </g>
+
+</svg>
