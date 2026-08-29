@@ -55,3 +55,107 @@ aryan = {
     "reach_me": "anandaryan406@gmail.com",
     "fun_fact": "I am a Learner 🧑‍💻"
 }
+🌱 Currently exploring Cloud Computing · DevOps · Linux
+🔭 All my projects → github.com/AryanAnand-25raj
+💬 Ask me about Python · ML · Data Analytics · Web Development · jQuery · JavaScript
+📝 Personal: Instagram @anand_aryan_25 • Tech Blog: @aryan_coder25
+🔷 Learning Java & DSA for day-to-day problem solving
+📫 Reach me at 
+
+anandaryan406@gmail.com
+⚡ Fun fact: I am a Learner 🧑‍💻
+
+🚀 Featured Projects & Architecture
+☁️ Cloud-Native Microservices Engine
+
+High-availability distributed microservices backend with automated CI/CD deployment pipelines, container orchestration, and serverless compute integration.
+
+📂 View Repositories →
+
+🤖 AI Vision & Predictive Analytics
+
+Real-time computer vision system & predictive machine learning pipeline for automated pattern recognition, dataset classification, and intelligence telemetry.
+
+📂 View Repositories →
+
+🛠️ Modular Languages & Tools
+💻 Programming Languages
+
+🌐 Frontend & Full-Stack Web Development
+
+🤖 AI / Machine Learning & Data Science
+
+☁️ Cloud, DevOps & Infrastructure
+
+🗄️ Databases & Storage
+
+
+⚡ Engineering Tenets & Workflow
+bash
+[+] Architecture  : Scalable Microservices & Cloud-Native Systems
+[+] Principles    : Clean Code, SOLID, Asynchronous I/O, High Availability
+[+] Automation    : GitHub Actions CI/CD, Containerization, Automated Testing
+[+] Philosophy    : Build with speed, optimize for resilience, engineer for scale
+
+📊 GitHub Stats & Contributions
+ 
+
+
+
+🌌 My GitHub Galaxy & 3D Contributions
+
+📈 Activity & Contribution Waveform
+
+
+⚡ Problem Solving & Competitive Programming Matrix
+LeetCode
+@aryan_an25
+
+View LeetCode →
+
+Codeforces
+@Anand_Aryan_25
+
+View Codeforces →
+
+CodeChef
+@anand_aryan_25
+
+View CodeChef →
+
+HackerRank
+@anandaryan406
+
+View HackerRank →
+
+
+
+🗺️ Engineering Journey & Career Milestones (2025 — 2030+)
+
+Year	Primary Core Focus	Tech Stack & Key Milestones
+2025	Full-Stack & Python Data	Full-Stack Web Development, Data Analysis, Python, Pandas & Analytics
+2026 ⚡	Java, Django, Linux & Cloud (Active)	Java DSA, Python Django & Frameworks, Linux Kernels & Cloud Platforms
+2027	DevOps, SQL & Android Apps	Docker Containerization, Kubernetes (K8s), SQL Databases, Android Dev
+2028	Spring Boot & Applied GenAI	Spring Boot Enterprise Microservices, Gen AI, Full-Stack Cloud Applications
+2029	Cloud Industry Job Role	Securing a Job Role in Cloud Computing, Architecting Real-World Live Projects
+2030+ 🚀	Senior Cloud Architect & Beyond	Senior Cloud Architect, Distributed Global Scale Systems & Autonomous Cloud
+🏆 GitHub Trophies
+
+🎧 Flow State & Dev Audio Station
+
+🤝 Connect With Me
+                   
+
+Gmail (anandaryan406@gmail.com)
+
+
+
+
+⭐ If you like my work, consider starring some repositories!
+
+Designed & Engineered with ⚡ by Aryan Anand • Always Learning, Always Building
+```
+Click the green button at the top right: Commit changes... ➡️ Commit changes.
+Go directly to your GitHub profile:
+👉 https://github.com/AryanAnand-25raj
+🎉 You are all set! Refresh your profile page to see your complete, live developer showcase! 🚀
