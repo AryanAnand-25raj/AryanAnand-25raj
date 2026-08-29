@@ -155,7 +155,4 @@ Gmail (anandaryan406@gmail.com)
 
 Designed & Engineered with ⚡ by Aryan Anand • Always Learning, Always Building
 ```
-Click the green button at the top right: Commit changes... ➡️ Commit changes.
-Go directly to your GitHub profile:
-👉 https://github.com/AryanAnand-25raj
-🎉 You are all set! Refresh your profile page to see your complete, live developer showcase! 🚀
+
