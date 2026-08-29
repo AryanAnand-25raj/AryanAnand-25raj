@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54" width="54" height="54">
+  <rect width="54" height="54" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
+  <rect x="2" y="2" width="50" height="50" rx="10" fill="#000000" />
+  <!-- Official Modern X Logo -->
+  <path d="M 16,15 L 26.5,29.5 L 15.5,39 H 19 L 27.8,31.2 L 34.5,39 H 39 L 28,24 L 38.2,15 H 34.7 L 26.7,22.3 L 20.5,15 Z M 19.5,17 H 23 L 35.5,37 H 32 Z" fill="#ffffff" />
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54" width="54" height="54">
+  <rect width="54" height="54" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
+  <rect x="2" y="2" width="50" height="50" rx="10" fill="#282828" />
+  <!-- Official LeetCode Emblem -->
+  <path d="M 28,15 L 22.5,20.5 C 19.5,23.5 19.5,28.5 22.5,31.5 L 28,37" fill="none" stroke="#ffa116" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 27,26 L 36,26" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  <path d="M 33,18 L 36.5,21.5 L 33,25" fill="none" stroke="#909090" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54" width="54" height="54">
+  <defs>
+    <linearGradient id="blogGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#9333ea" />
+    </linearGradient>
+  </defs>
+  <rect width="54" height="54" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
+  <rect x="2" y="2" width="50" height="50" rx="10" fill="url(#blogGrad)" />
+  <!-- Tech Blog Glyph: Code / Article icon -->
+  <path d="M 17,21 L 22,27 L 17,33" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 37,21 L 32,27 L 37,33" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <line x1="29" y1="18" x2="25" y2="36" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" />
+</svg>

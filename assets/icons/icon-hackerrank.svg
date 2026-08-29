@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54" width="54" height="54">
+  <rect width="54" height="54" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
+  <g transform="translate(13, 13)">
+    <!-- Official HackerRank Green Emblem -->
+    <path d="M 0,0 H 8 V 11 H 20 V 0 H 28 V 28 H 20 V 17 H 8 V 28 H 0 Z" fill="#00EA64" />
+  </g>
+</svg>
