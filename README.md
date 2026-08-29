@@ -2,35 +2,42 @@
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-<!--                        HERO SECTION                           -->
+<!--                         3D SPACE HERO                         -->
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <a href="https://github.com/AryanAnand-25raj">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,50:111827,100:2563EB&height=220&section=header&text=ARYAN%20ANAND%20TRIPATHI&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=AI%20%2F%20ML%20%E2%80%A2%20SOFTWARE%20%E2%80%A2%20CLOUD%20%E2%80%A2%20SPACE%20TECHNOLOGY&descAlignY=58&descSize=15&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,35:0B1120,70:172554,100:2563EB&height=230&section=header&text=ARYAN%20ANAND%20TRIPATHI&fontSize=38&fontColor=FFFFFF&fontAlignY=35&desc=AI%20%2F%20ML%20%E2%80%A2%20SOFTWARE%20%E2%80%A2%20CLOUD%20%E2%80%A2%20SPACE%20TECHNOLOGY&descAlignY=56&descSize=15&animation=fadeIn" />
 </a>
 
 <br>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=Building+Intelligent+Systems+%F0%9F%A4%96;Exploring+AI+%C3%97+Software+%C3%97+Space+Technology+%F0%9F%9A%80;Learning+Cloud%2C+DevOps+%26+System+Design+%E2%98%81%EF%B8%8F;Turning+Ideas+Into+Working+Systems+%F0%9F%9B%A0%EF%B8%8F;Always+Learning.+Always+Building.+%E2%9C%A8" alt="Typing animation" />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1000&color=58A6FF&center=true&vCenter=true&width=850&lines=Hi+there%2C+I'm+Aryan+Anand!+%F0%9F%91%8B;AI%2FML+%26+Software+Developer+from+India+%F0%9F%87%AE%F0%9F%87%B3;Python+%7C+ML+%7C+Cloud+%7C+Web+Development;Exploring+AI+%C3%97+Space+Technology+%F0%9F%9A%80;Always+Learning%2C+Always+Building+%F0%9F%9B%A0%EF%B8%8F"
+    alt="Typing SVG"
+  />
 </a>
 
 <br><br>
+
+<!-- ORIGINAL PROFILE BADGES -->
 
 <a href="https://github.com/AryanAnand-25raj">
-  <img src="https://komarev.com/ghpvc/?username=aryananand-25raj&label=PROFILE%20VIEWS&color=2563EB&style=for-the-badge" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=aryananand-25raj&label=PROFILE%20VIEWS&color=2F81F7&style=for-the-badge" alt="Profile Views" />
 </a>
 
-<a href="https://github.com/AryanAnand-25raj?tab=followers">
-  <img src="https://img.shields.io/github/followers/AryanAnand-25raj?label=FOLLOWERS&style=for-the-badge&color=111827&logo=github" alt="GitHub followers" />
+<a href="https://twitter.com/@anand_aryan25">
+  <img src="https://img.shields.io/twitter/follow/@anand_aryan25?logo=twitter&style=for-the-badge&color=1DA1F2&label=FOLLOW" alt="Twitter Follow" />
 </a>
 
-<a href="https://github.com/AryanAnand-25raj?tab=repositories">
-  <img src="https://img.shields.io/github/stars/AryanAnand-25raj?label=STARS&style=for-the-badge&color=111827&logo=github" alt="GitHub stars" />
-</a>
+<img src="https://img.shields.io/badge/AI%2FML%20%26%20Software%20Developer-2F81F7?style=for-the-badge" alt="AI ML Software Developer" />
+
+<img src="https://img.shields.io/badge/India%20%F0%9F%87%AE%F0%9F%87%B3-gray?style=for-the-badge" alt="India" />
 
 <br><br>
+
+<!-- SOCIAL LINKS -->
 
 <a href="https://linkedin.com/in/aryan-anand">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -56,33 +63,37 @@
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-<!--                      MISSION CONTROL                          -->
+<!--                       MISSION CONTROL                         -->
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
-## 🤖 Mission Control
+# 🤖 Mission Control
 
 <div align="center">
 
 ```text
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│                     🛰️ ARYAN / SYSTEM                       │
-│                                                             │
-│  STATUS        : 🟢 ONLINE                                 │
-│  LOCATION      : 🇮🇳 INDIA                                  │
-│  PRIMARY ROLE  : AI/ML & SOFTWARE DEVELOPER                │
-│                                                             │
-│  CURRENT MISSION                                           │
-│  ├── Build intelligent applications                         │
-│  ├── Strengthen software engineering                        │
-│  ├── Explore cloud & DevOps                                │
-│  └── Apply AI to real-world & space-tech problems           │
-│                                                             │
-│  NEXT DESTINATION                                           │
-│  └── Advanced AI • Cloud Architecture • Open Source         │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════════╗
+║                     🛰️ ARYAN / SYSTEM                       ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  STATUS        : 🟢 ONLINE                                  ║
+║  LOCATION      : 🇮🇳 INDIA                                   ║
+║  ROLE          : AI/ML & SOFTWARE DEVELOPER                 ║
+║                                                              ║
+║  PRIMARY FOCUS                                             ║
+║  ├── 🤖 Artificial Intelligence & Machine Learning           ║
+║  ├── 💻 Software Engineering                                ║
+║  ├── 🌐 Full-Stack Development                              ║
+║  ├── ☁️ Cloud Computing & DevOps                            ║
+║  └── 🛰️ Space Technology                                   ║
+║                                                              ║
+║  CURRENTLY LEARNING                                        ║
+║  ├── Java & DSA                                             ║
+║  ├── Linux                                                   ║
+║  ├── AWS                                                     ║
+║  └── DevOps                                                  ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
 </div>
@@ -93,37 +104,59 @@
 
 I'm **Aryan Anand Tripathi**, a Computer Science & Engineering student specializing in **Artificial Intelligence & Machine Learning**.
 
-I enjoy turning ideas into practical software and exploring how **AI, data, cloud computing and software engineering** can be combined to solve real-world problems.
+I'm passionate about **Artificial Intelligence, Machine Learning, software development, cloud computing and space technology**, and I enjoy using technology to solve real-world problems.
 
-My interests extend beyond conventional software development into **space technology, satellite systems and AI-powered environmental monitoring**.
+I work across multiple areas including **Python, Java, C++, Machine Learning, Data Analytics, Web Development and Cloud technologies**.
 
 ```python
-class AryanAnand:
+aryan = {
+    "name":     "Aryan Anand",
+    "location": "India 🇮🇳",
+    "role":     "AI/ML & Software Developer",
 
-    name = "Aryan Anand Tripathi"
-    location = "India 🇮🇳"
-    role = "AI/ML & Software Developer"
-
-    interests = [
+    "interests": [
         "Artificial Intelligence",
         "Machine Learning",
         "Software Engineering",
         "Cloud Computing",
         "Space Technology"
-    ]
+    ],
 
-    currently_learning = [
-        "Data Structures & Algorithms",
-        "AWS",
-        "Linux",
+    "skills": [
+        "Python",
+        "ML",
+        "Data Analytics",
+        "Web Development",
+        "Java",
+        "C++"
+    ],
+
+    "learning": [
+        "Cloud Computing",
         "DevOps",
-        "Advanced AI/ML"
-    ]
+        "Linux",
+        "Java",
+        "DSA"
+    ],
 
-    philosophy = "Learn → Build → Break → Improve → Share"
+    "reach_me": "anandaryan406@gmail.com",
 
-    mission = "Build technology that solves real-world problems."
+    "fun_fact": "I am a Learner 🧑‍💻"
+}
 ```
+
+### 🔭 What I'm Doing
+
+* 🌱 Currently exploring **Cloud Computing · DevOps · Linux**
+* 🔷 Learning **Java & DSA** for problem solving
+* 🤖 Exploring **AI / ML applications**
+* 🌐 Building **Web & Full-Stack applications**
+* ☁️ Learning **AWS and Cloud technologies**
+* 🛰️ Exploring **Space Technology & Satellite-based applications**
+* 📝 Sharing technical content through **Instagram**
+* 💬 Ask me about **Python · ML · Data Analytics · Web Development · jQuery · JavaScript**
+* 📫 Reach me at **[anandaryan406@gmail.com](mailto:anandaryan406@gmail.com)**
+* ⚡ Fun fact: **I am a Learner 🧑‍💻**
 
 ---
 
@@ -131,82 +164,62 @@ class AryanAnand:
 
 <div align="center">
 
-|    🧠 AI / ML    |  🌐 Software  | ☁️ Cloud |     🛰️ Space    |
-| :--------------: | :-----------: | :------: | :--------------: |
-| Machine Learning |   Full Stack  |    AWS   |  Satellite Data  |
-|  Computer Vision |      APIs     |   Linux  | Environmental AI |
-|   Generative AI  |    Backend    |  Docker  | Space Technology |
-|  Data Analytics  | System Design |  DevOps  |     Research     |
+|    🤖 AI / ML    | 💻 Software | ☁️ Cloud |     🛰️ Space    |
+| :--------------: | :---------: | :------: | :--------------: |
+| Machine Learning |  Full Stack |    AWS   |  Satellite Data  |
+|  Computer Vision |     APIs    |   Linux  | Environmental AI |
+|   Generative AI  |   Backend   |  Docker  | Space Technology |
+|  Data Analytics  |     DSA     |  DevOps  |     Research     |
 
 </div>
-
-### Currently working on
-
-* 🤖 AI/ML applications
-* 🌐 Full-stack web applications
-* 🧠 Data structures & algorithms
-* ☁️ AWS and cloud fundamentals
-* 🐧 Linux and DevOps
-* 🌱 Open-source contribution
-* 🛰️ AI applications involving satellite/environmental data
 
 ---
 
 # ⭐ Featured Missions
 
-> A selection of projects that represent what I'm learning and building.
+> Selected projects representing my development journey.
 
 ### 🛰️ Mission 01 — Environmental Intelligence
 
-**AI + Satellite Data + Environmental Monitoring**
+**AI × Satellite Data × Environmental Monitoring**
 
-A technology-focused project exploring how satellite/environmental data can be processed and analyzed using AI/ML techniques.
+Exploring the use of satellite/environmental data and machine learning to identify meaningful environmental patterns.
 
 **Technology**
 
-`Python` `Machine Learning` `Data Analysis` `Satellite Data`
+`Python` `Machine Learning` `Data Analytics` `Satellite Data`
 
-**Mission Status:** 🟢 Active
+**Status:** 🟢 Active
 
-**[View Repository →](https://github.com/AryanAnand-25raj)**
+**[🚀 Explore My Repositories →](https://github.com/AryanAnand-25raj?tab=repositories)**
 
 ---
 
 ### 🤖 Mission 02 — AI Application
 
-**Intelligent Software System**
-
-An AI-powered application designed to transform a real-world problem into an intelligent software solution.
+An intelligent application designed to apply AI/ML techniques to a real-world problem.
 
 **Technology**
 
-`Python` `AI/ML` `APIs` `Data Processing`
+`Python` `AI/ML` `Data Processing`
 
-**Mission Status:** 🟢 Completed / Improving
+**Status:** 🟢 Building
 
-**[View Repository →](https://github.com/AryanAnand-25raj)**
+**[View Projects →](https://github.com/AryanAnand-25raj?tab=repositories)**
 
 ---
 
 ### 🌐 Mission 03 — Full-Stack Application
 
-**Modern Web Application**
-
-A full-stack application combining frontend interfaces, backend APIs and database technologies.
+A modern web application combining frontend, backend APIs and database technologies.
 
 **Technology**
 
 `React` `Node.js` `Express` `MongoDB`
 
-**Mission Status:** 🟡 Developing
+**Status:** 🟡 Developing
 
-**[View Repository →](https://github.com/AryanAnand-25raj)**
-
----
-
-> 💡 **More projects:** Explore my repositories to see experiments, learning projects and ongoing work.
-
-**[🚀 Explore All Repositories →](https://github.com/AryanAnand-25raj?tab=repositories)**
+**[View Projects →](https://github.com/AryanAnand-25raj?tab=repositories)**
 
 ---
 
@@ -220,25 +233,25 @@ A full-stack application combining frontend interfaces, backend APIs and databas
                          │  INTELLIGENCE   │
                          └────────┬────────┘
                                   │
-             ┌────────────────────┼────────────────────┐
-             │                    │                    │
-             ▼                    ▼                    ▼
-      ┌─────────────┐      ┌─────────────┐      ┌─────────────┐
-      │     ML      │      │  COMPUTER   │      │   GEN AI    │
-      │             │      │   VISION    │      │             │
-      └──────┬──────┘      └──────┬──────┘      └──────┬──────┘
-             │                    │                    │
-             └────────────────────┼────────────────────┘
+              ┌───────────────────┼───────────────────┐
+              │                   │                   │
+              ▼                   ▼                   ▼
+       ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+       │     ML      │     │  COMPUTER   │     │   GEN AI    │
+       │             │     │   VISION    │     │             │
+       └──────┬──────┘     └──────┬──────┘     └──────┬──────┘
+              │                   │                   │
+              └───────────────────┼───────────────────┘
                                   ▼
                          ┌─────────────────┐
-                         │ REAL-WORLD AI   │
-                         │  APPLICATIONS   │
+                         │  REAL-WORLD AI  │
+                         │   APPLICATIONS  │
                          └─────────────────┘
 ```
 
 </div>
 
-### Areas I'm exploring
+### Areas of Interest
 
 * 🧠 Machine Learning
 * 👁️ Computer Vision
@@ -246,17 +259,17 @@ A full-stack application combining frontend interfaces, backend APIs and databas
 * 📊 Data Analytics
 * 🛰️ AI for Satellite Data
 * 🌍 Environmental Intelligence
-* ☁️ Machine Learning + Cloud
+* ☁️ ML + Cloud
 * 🔬 Applied AI Research
 
 ---
 
 # 🛰️ Space × AI
 
-One of the areas I'm particularly interested in is the intersection of **Artificial Intelligence and Space Technology**.
+One of my areas of interest is the intersection of **Artificial Intelligence and Space Technology**.
 
 ```text
-                 🛰️ SATELLITE
+                  🛰️ SATELLITE
                        │
                        ▼
                 📡 DATA COLLECTION
@@ -265,35 +278,45 @@ One of the areas I'm particularly interested in is the intersection of **Artific
                  🗃️ DATA PROCESSING
                        │
                        ▼
-                 🤖 AI / ML MODELS
+                  🤖 AI / ML
                        │
                        ▼
-                 📊 ANALYSIS
+                   📊 ANALYSIS
                        │
                        ▼
-                🌍 REAL-WORLD
-                   INSIGHTS
+                  🌍 INSIGHTS
 ```
 
-### Areas of interest
+### Exploring
 
-* Satellite imagery
-* Environmental monitoring
-* Computer vision
-* Remote sensing data
-* AI-assisted analysis
-* Climate/environmental intelligence
-* Cloud-based satellite data systems
+* 🛰️ Satellite imagery
+* 🌍 Environmental monitoring
+* 👁️ Computer vision
+* 📡 Remote sensing data
+* 🤖 AI-assisted analysis
+* ☁️ Cloud-based satellite systems
+* 🔬 Space-tech research
 
 ---
 
-# 🛠️ Technology Orbit
+# 🛠️ Languages & Tools
 
-## 💻 Programming Languages
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<!-- ORIGINAL TECH STACK PRESERVED                                 -->
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+## 💻 Languages
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,java,cpp,c,javascript,bash" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
 
 </div>
 
@@ -303,7 +326,14 @@ One of the areas I'm particularly interested in is the intersection of **Artific
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,javascript,react,nodejs,express,django,jquery" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+<img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" />
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
 
 </div>
 
@@ -313,13 +343,14 @@ One of the areas I'm particularly interested in is the intersection of **Artific
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv" />
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 
 </div>
-
-**Also working with:**
-
-`NumPy` `Pandas` `Scikit-learn` `Seaborn`
 
 ---
 
@@ -327,13 +358,13 @@ One of the areas I'm particularly interested in is the intersection of **Artific
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=mysql,mongodb,firebase" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/MS_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
+<img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+<img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase&logoColor=white" />
 
 </div>
-
-**Also familiar with:**
-
-`SQL Server` `Oracle`
 
 ---
 
@@ -341,7 +372,12 @@ One of the areas I'm particularly interested in is the intersection of **Artific
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,linux,git,githubactions" />
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
 
 </div>
 
@@ -354,25 +390,28 @@ One of the areas I'm particularly interested in is the intersection of **Artific
 ```text
                          🚀
                          │
-                         │
-                  ┌──────▼──────┐
-                  │   ADVANCED  │
-                  │    AI/ML    │
-                  └──────┬──────┘
-                         │
-                ┌────────▼────────┐
-                │     CLOUD       │
-                │   & DEVOPS      │
+                         ▼
+                ┌─────────────────┐
+                │    ADVANCED     │
+                │      AI/ML      │
                 └────────┬────────┘
                          │
-                ┌────────▼────────┐
+                         ▼
+                ┌─────────────────┐
+                │      CLOUD      │
+                │    & DEVOPS     │
+                └────────┬────────┘
+                         │
+                         ▼
+                ┌─────────────────┐
                 │    SOFTWARE     │
                 │   ENGINEERING   │
                 └────────┬────────┘
                          │
-                ┌────────▼────────┐
+                         ▼
+                ┌─────────────────┐
                 │       DSA       │
-                │  & FUNDAMENTALS │
+                │  FUNDAMENTALS   │
                 └────────┬────────┘
                          │
                          ▼
@@ -387,16 +426,17 @@ One of the areas I'm particularly interested in is the intersection of **Artific
 
 <div align="center">
 
-| Technology     | Focus                                   |
+| Area           | Current Focus                           |
 | :------------- | :-------------------------------------- |
-| 🧠 AI / ML     | Advanced concepts & applications        |
+| 🤖 AI / ML     | Advanced concepts & applications        |
 | 💻 DSA         | Problem solving & interview preparation |
-| 🌐 Full Stack  | Building scalable applications          |
-| ☁️ AWS         | Cloud infrastructure & services         |
-| 🐧 Linux       | System administration & development     |
+| ☕ Java         | Programming & DSA                       |
+| 🌐 Web         | Full-Stack Development                  |
+| ☁️ AWS         | Cloud fundamentals                      |
+| 🐧 Linux       | Development & system fundamentals       |
 | 🐳 Docker      | Containerization                        |
 | ⚙️ DevOps      | CI/CD & deployment                      |
-| 🌍 Open Source | Real-world collaboration                |
+| 🌱 Open Source | Real-world contributions                |
 
 </div>
 
@@ -405,39 +445,53 @@ One of the areas I'm particularly interested in is the intersection of **Artific
 # 🏆 Achievements & Milestones
 
 ```text
-🎓 Computer Science & Engineering
-   └── Artificial Intelligence & Machine Learning
+🎓 COMPUTER SCIENCE
+   └── B.Tech CSE — Artificial Intelligence & Machine Learning
 
-💻 Programming
-   └── Python • Java • C++
+💻 PROGRAMMING
+   ├── Python
+   ├── Java
+   └── C++
 
 🤖 AI / ML
-   └── Applied AI & Data Projects
+   └── AI, ML & Data Analytics Projects
 
-☁️ Cloud
+☁️ CLOUD
    └── AWS & Linux Learning Journey
 
-🧠 Problem Solving
-   └── DSA • LeetCode • HackerRank
+🧠 PROBLEM SOLVING
+   ├── LeetCode
+   ├── HackerRank
+   └── DSA
 
-🌱 Open Source
+🌱 OPEN SOURCE
    └── Building toward meaningful contributions
 
-🚀 Projects
-   └── AI • Full Stack • Data • Space Technology
+🚀 PROJECTS
+   └── AI • Web • Data • Cloud • Space Technology
 ```
 
-> This section will evolve as I complete certifications, competitions, internships, open-source programs and research projects.
+> This section will continue evolving with certifications, hackathons, internships, research and open-source achievements.
 
 ---
 
-# 📊 GitHub Command Center
+# 📊 GitHub Stats
+
+<!-- ORIGINAL GITHUB STATS PRESERVED -->
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=aryananand-25raj&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="180" />
+<img
+src="https://github-readme-stats.vercel.app/api?username=aryananand-25raj&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"
+height="180"
+alt="Aryan's GitHub Stats"
+/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryananand-25raj&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180" />
+<img
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryananand-25raj&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
+height="180"
+alt="Top Languages"
+/>
 
 </div>
 
@@ -445,19 +499,42 @@ One of the areas I'm particularly interested in is the intersection of **Artific
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=aryananand-25raj&theme=tokyonight&hide_border=true&background=0D1117" />
+<img
+src="https://streak-stats.demolab.com?user=aryananand-25raj&theme=tokyonight&hide_border=true"
+alt="GitHub Streak"
+/>
 
 </div>
 
 ---
 
-# 🐍 Contribution Orbit
+# 🏆 GitHub Trophies
+
+<!-- ORIGINAL TROPHIES FEATURE PRESERVED -->
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/aryananand-25raj/aryananand-25raj/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake animation" />
+<img
+src="https://github-profile-trophy.vercel.app/?username=aryananand-25raj&theme=nord&no-frame=true&column=7"
+alt="GitHub Trophies"
+/>
 
 </div>
+
+---
+
+# 🐍 Contribution Graph
+
+<div align="center">
+
+<img
+src="https://raw.githubusercontent.com/aryananand-25raj/aryananand-25raj/output/github-contribution-grid-snake-dark.svg"
+alt="GitHub Contribution Snake"
+/>
+
+</div>
+
+> If the contribution snake is not configured yet, remove the image above until the GitHub Actions workflow is created.
 
 ---
 
@@ -504,48 +581,46 @@ One of the areas I'm particularly interested in is the intersection of **Artific
 
 # 🔭 What's Next?
 
-My long-term direction is to grow across:
-
 ```text
-AI / ML
-   │
-   ├── Generative AI
-   ├── Computer Vision
-   ├── Applied ML
-   └── AI Research
-         │
-         ▼
-Software Engineering
-   │
-   ├── Full Stack
-   ├── Backend Systems
-   ├── APIs
-   └── System Design
-         │
-         ▼
-Cloud & DevOps
-   │
-   ├── AWS
-   ├── Linux
-   ├── Docker
-   └── CI/CD
-         │
-         ▼
-Space Technology
-   │
-   ├── Satellite Data
-   ├── Remote Sensing
-   ├── Environmental AI
-   └── Intelligent Space Systems
+                    🚀 FUTURE ORBIT
+                          │
+           ┌──────────────┼──────────────┐
+           │              │              │
+           ▼              ▼              ▼
+        🤖 AI/ML      💻 SOFTWARE      ☁️ CLOUD
+           │              │              │
+           ▼              ▼              ▼
+       GenAI / CV      Full Stack     AWS / DevOps
+           │              │              │
+           └──────────────┼──────────────┘
+                          │
+                          ▼
+                    🛰️ SPACE TECH
+                          │
+                          ▼
+                 🌍 REAL-WORLD IMPACT
 ```
+
+### Long-term direction
+
+* 🤖 Advanced AI/ML
+* 🧠 Generative AI
+* 👁️ Computer Vision
+* 💻 Software Engineering
+* 🌐 Full-Stack Development
+* ☁️ Cloud Architecture
+* ⚙️ DevOps
+* 🌱 Open Source
+* 🛰️ Space Technology
+* 🌍 AI for environmental applications
 
 ---
 
-# 🤝 Let's Connect
+# 🤝 Connect With Me
 
 <div align="center">
 
-### 💼 Professional
+## 💼 Professional
 
 <a href="https://linkedin.com/in/aryan-anand">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
@@ -555,7 +630,9 @@ Space Technology
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
-### 🧠 Coding
+<br><br>
+
+## 🧠 Coding
 
 <a href="https://www.leetcode.com/aryan_an25">
   <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
@@ -565,18 +642,20 @@ Space Technology
   <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" />
 </a>
 
-### 📱 Social
+<br><br>
+
+## 📱 Social
 
 <a href="https://twitter.com/@anand_aryan25">
-  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
+  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+</a>
+
+<a href="https://instagram.com/aryan_coder25">
+  <img src="https://img.shields.io/badge/Developer_Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
 </a>
 
 <a href="https://instagram.com/anandaryan25">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-</a>
-
-<a href="https://instagram.com/aryan_coder25">
-  <img src="https://img.shields.io/badge/Developer%20Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
 </a>
 
 </div>
@@ -588,15 +667,15 @@ Space Technology
 <div align="center">
 
 ```text
-┌────────────────────────────────────────────────────┐
-│                                                    │
-│          "Build things worth exploring."          │
-│                                                    │
-│        Learn. Build. Experiment. Contribute.      │
-│                                                    │
-│                     🚀 🛰️ 🤖                       │
-│                                                    │
-└────────────────────────────────────────────────────┘
+╔════════════════════════════════════════════════════════════╗
+║                                                            ║
+║              "Build things worth exploring."              ║
+║                                                            ║
+║         Learn • Build • Experiment • Contribute            ║
+║                                                            ║
+║                    🤖  🛰️  🚀                              ║
+║                                                            ║
+╚════════════════════════════════════════════════════════════╝
 ```
 
 <br>
@@ -607,10 +686,10 @@ Space Technology
 
 <br><br>
 
-⭐ **If something here interests you, explore a repository, open an issue, or connect with me.**
+<i>⭐ If you like my work, consider starring some repositories!</i>
 
-<br>
+<br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,50:111827,100:2563EB&height=120&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,35:0B1120,70:172554,100:2563EB&height=130&section=footer" />
 
 </div>
