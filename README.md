@@ -1,4 +1,4 @@
-3D/AI/space-themed professional  <div align="center">
+  <div align="center">
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2F81F7&center=true&vCenter=true&width=700&lines=Hi+there%2C+I'm+Aryan+Anand!+%F0%9F%91%8B;Software+%26+Cloud+Engineer+from+India+%F0%9F%87%AE%F0%9F%87%B3;Python+%7C+ML+%7C+Cloud+%7C+Web+Dev;Always+Learning%2C+Always+Building+%F0%9F%9A%80" alt="Typing SVG" />
