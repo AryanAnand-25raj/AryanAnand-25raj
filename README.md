@@ -312,30 +312,32 @@
 
 ---
 
-## 🚀 Featured High-Impact Projects
+## 💻 GitHub Top Repositories & Real-Time Production Pins
 
 <div align="center">
-  <table width="100%" style="border-collapse: collapse; border: 1px solid #30363d;">
+  <table width="100%" style="border-collapse: collapse; border: none;">
     <tr>
-      <td width="50%" style="background: #0d1117; padding: 18px; border: 1px solid #30363d; border-radius: 8px;">
-        <h3 style="margin-top: 0; color: #38bdf8;">⚡ Cloud Microservice Engine</h3>
-        <p style="color: #8b949e; font-size: 13px;">High-throughput distributed asynchronous backend orchestrated with Docker, Kubernetes, and FastAPI.</p>
-        <p>
-          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-          <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-          <img src="https://img.shields.io/badge/K8s-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
-        </p>
-        <a href="https://github.com/AryanAnand-25raj" style="color: #2f81f7; font-weight: bold;">View Repository →</a>
+      <td width="50%" align="center" style="border: none; padding: 6px;">
+        <a href="https://github.com/AryanAnand-25raj/ZYLO_3D_Portfolio_Application" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=AryanAnand-25raj&repo=ZYLO_3D_Portfolio_Application&theme=tokyonight&hide_border=false" alt="ZYLO 3D Portfolio Application" width="100%" />
+        </a>
       </td>
-      <td width="50%" style="background: #0d1117; padding: 18px; border: 1px solid #30363d; border-radius: 8px;">
-        <h3 style="margin-top: 0; color: #a855f7;">🤖 Neural Vision & AI Pipeline</h3>
-        <p style="color: #8b949e; font-size: 13px;">End-to-end deep learning pipeline for real-time computer vision inference and automated telemetry processing.</p>
-        <p>
-          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-          <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-          <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
-        </p>
-        <a href="https://github.com/AryanAnand-25raj" style="color: #2f81f7; font-weight: bold;">View Repository →</a>
+      <td width="50%" align="center" style="border: none; padding: 6px;">
+        <a href="https://github.com/AryanAnand-25raj/Resume-html-css" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=AryanAnand-25raj&repo=Resume-html-css&theme=tokyonight&hide_border=false" alt="Modern Resume Web App" width="100%" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center" style="border: none; padding: 6px;">
+        <a href="https://github.com/AryanAnand-25raj/Tkinter-Library-and-making-of-the-Notepad" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=AryanAnand-25raj&repo=Tkinter-Library-and-making-of-the-Notepad&theme=tokyonight&hide_border=false" alt="Python Tkinter Notepad" width="100%" />
+        </a>
+      </td>
+      <td width="50%" align="center" style="border: none; padding: 6px;">
+        <a href="https://github.com/AryanAnand-25raj/calculator-with-python-Library-Tkinter-" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=AryanAnand-25raj&repo=calculator-with-python-Library-Tkinter-&theme=tokyonight&hide_border=false" alt="Python Tkinter Calculator" width="100%" />
+        </a>
       </td>
     </tr>
   </table>
