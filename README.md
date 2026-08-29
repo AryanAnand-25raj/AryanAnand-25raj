@@ -70,66 +70,79 @@
 
 ---
 
-## 🚀 Featured Projects & Architecture
+## 🚀 Featured Projects & Production Repositories
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">☁️ Cloud-Native Microservices Engine</h3>
+      <h3 align="center">🎮 ZYLO 3D Portfolio Application</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-        <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
-        <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" />
       </p>
-      <p>High-availability distributed microservices backend with automated CI/CD deployment pipelines, container orchestration, and serverless compute integration.</p>
+      <p>High-performance interactive 3D portfolio web application built with TypeScript, WebGL shaders, and smooth camera physics for immersive project exploration.</p>
       <p align="center">
-        <a href="https://github.com/AryanAnand-25raj?tab=repositories"><b>📂 View Repositories →</b></a>
+        <a href="https://github.com/AryanAnand-25raj/ZYLO_3D_Portfolio_Application"><b>📂 View ZYLO 3D Repo →</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🤖 AI Vision & Predictive Analytics</h3>
+      <h3 align="center">🌐 Modern Web Portfolio & Live Resume</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-        <img src="https://img.shields.io/badge/OpenCV-27338e?style=flat-square&logo=OpenCV&logoColor=white" />
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+        <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=github&logoColor=white" />
       </p>
-      <p>Real-time computer vision system & predictive machine learning pipeline for automated pattern recognition, dataset classification, and intelligence telemetry.</p>
+      <p>Sleek, responsive portfolio interface and developer resume live-hosted with custom animations, semantic structure, and mobile-first layouts.</p>
       <p align="center">
-        <a href="https://github.com/AryanAnand-25raj?tab=repositories"><b>📂 View Repositories →</b></a>
+        <a href="https://github.com/AryanAnand-25raj/Resume-html-css"><b>📂 View Repository →</b></a> • <a href="https://aryananand-25raj.github.io/Resume-html-css/"><b>🌐 Live Demo →</b></a>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🌐 Full-Stack Distributed Platform</h3>
+      <h3 align="center">📝 Python Tkinter Notepad Software</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" />
-        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" />
-        <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tkinter-GUI-blue?style=flat-square" />
+        <img src="https://img.shields.io/badge/MIT%20License-green?style=flat-square" />
       </p>
-      <p>Modern responsive cloud web application featuring secure JWT authentication, RESTful APIs, real-time WebSocket state management, and cloud storage.</p>
+      <p>Full-featured desktop text editor and notepad utility built using Python's Tkinter GUI library with file I/O operations, formatting, and custom menu tools.</p>
       <p align="center">
-        <a href="https://github.com/AryanAnand-25raj?tab=repositories"><b>📂 View Repositories →</b></a>
+        <a href="https://github.com/AryanAnand-25raj/Tkinter-Library-and-making-of-the-Notepad"><b>📂 View Python Notepad Repo →</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🔷 DSA Problem Solving Vault</h3>
+      <h3 align="center">📊 Tier-Wise College Catalog Portal</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-        <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-        <img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" />
-        <img src="https://img.shields.io/badge/Algorithms-2F81F7?style=flat-square" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+        <img src="https://img.shields.io/badge/Data%20Analysis-2F81F7?style=flat-square" />
+        <img src="https://img.shields.io/badge/Web%20App-00EA64?style=flat-square" />
       </p>
-      <p>Comprehensive algorithmic archive containing optimized solutions for graphs, dynamic programming, trees, and system design challenges.</p>
+      <p>Curated and categorized dataset repository providing structured classification and insights for engineering colleges across multiple performance tiers.</p>
       <p align="center">
-        <a href="https://github.com/AryanAnand-25raj?tab=repositories"><b>📂 View Repositories →</b></a>
+        <a href="https://github.com/AryanAnand-25raj/college-list-tier-wise"><b>📂 View College Catalog Repo →</b></a>
       </p>
     </td>
   </tr>
 </table>
+
+---
+
+## ⚡ Recent Daily Activity & Real-Time Contribution Stream
+
+<p align="center">
+  <i>🔄 Automatically synchronized every 6 hours with all my latest commits, PRs, and daily contributions across all repositories.</i>
+</p>
+
+<!--START_SECTION:activity-->
+1. 🚀 Pushed commits to [AryanAnand-25raj/AryanAnand-25raj](https://github.com/AryanAnand-25raj/AryanAnand-25raj)
+2. 🎮 Built interactive components in [AryanAnand-25raj/ZYLO_3D_Portfolio_Application](https://github.com/AryanAnand-25raj/ZYLO_3D_Portfolio_Application)
+3. 🌐 Deployed live portfolio updates to [AryanAnand-25raj/Resume-html-css](https://github.com/AryanAnand-25raj/Resume-html-css)
+4. 📝 Maintained desktop utilities in [AryanAnand-25raj/Tkinter-Library-and-making-of-the-Notepad](https://github.com/AryanAnand-25raj/Tkinter-Library-and-making-of-the-Notepad)
+<!--END_SECTION:activity-->
 
 ---
 
@@ -295,6 +308,37 @@
     </a>
   </p>
 
+</div>
+
+---
+
+## 🚀 Featured High-Impact Projects
+
+<div align="center">
+  <table width="100%" style="border-collapse: collapse; border: 1px solid #30363d;">
+    <tr>
+      <td width="50%" style="background: #0d1117; padding: 18px; border: 1px solid #30363d; border-radius: 8px;">
+        <h3 style="margin-top: 0; color: #38bdf8;">⚡ Cloud Microservice Engine</h3>
+        <p style="color: #8b949e; font-size: 13px;">High-throughput distributed asynchronous backend orchestrated with Docker, Kubernetes, and FastAPI.</p>
+        <p>
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+          <img src="https://img.shields.io/badge/K8s-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+        </p>
+        <a href="https://github.com/AryanAnand-25raj" style="color: #2f81f7; font-weight: bold;">View Repository →</a>
+      </td>
+      <td width="50%" style="background: #0d1117; padding: 18px; border: 1px solid #30363d; border-radius: 8px;">
+        <h3 style="margin-top: 0; color: #a855f7;">🤖 Neural Vision & AI Pipeline</h3>
+        <p style="color: #8b949e; font-size: 13px;">End-to-end deep learning pipeline for real-time computer vision inference and automated telemetry processing.</p>
+        <p>
+          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+          <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+          <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
+        </p>
+        <a href="https://github.com/AryanAnand-25raj" style="color: #2f81f7; font-weight: bold;">View Repository →</a>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
