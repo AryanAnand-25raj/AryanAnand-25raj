@@ -208,16 +208,20 @@
 
 ---
 
-## 📊 GitHub Stats & Contributions
+## 📊 GitHub Stats & Real-Time Contributions
 
 <div align="center">
-  <img src="assets/github-stats.svg" height="175" alt="GitHub Stats" />
-  &nbsp;
-  <img src="assets/top-langs.svg" height="175" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AryanAnand-25raj&theme=tokyonight" width="49%" alt="Aryan Anand Profile Summary" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AryanAnand-25raj&theme=tokyonight" width="49%" alt="Aryan Anand GitHub Stats" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AryanAnand-25raj&theme=tokyonight" width="49%" alt="Repos Per Language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AryanAnand-25raj&theme=tokyonight" width="49%" alt="Most Commit Language" />
 </div>
 
 <p align="center">
-  <img src="assets/streak-stats.svg" alt="GitHub Streak Stats" width="100%" />
+  <img src="https://streak-stats.demolab.com/?user=AryanAnand-25raj&theme=tokyonight&hide_border=false" alt="Aryan Anand Streak Stats" width="100%" />
 </p>
 
 <!-- ==================== TRACK DIVIDER 03: WARP STREAM ==================== -->
