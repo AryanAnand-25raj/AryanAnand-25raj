@@ -54,7 +54,7 @@
   <g transform="translate(30, 28)">
     <circle cx="6" cy="0" r="4" fill="#00ea64" />
     <text x="18" y="4" class="snake-header">GITHUB CONTRIBUTION GRID // SNAKE EATER</text>
-    <text x="640" y="4" font-family="'Fira Code', monospace" font-size="11" fill="#38bdf8">[ 2,148 COMMITS CONSUMED ]</text>
+    <text x="610" y="4" font-family="'Fira Code', monospace" font-size="11" fill="#38bdf8">[ @AryanAnand-25raj // ACTIVE ]</text>
   </g>
 
   <!-- ==================== CONTRIBUTION MATRIX TILES (52 WEEKS GRID SAMPLE) ==================== -->

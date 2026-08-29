@@ -64,14 +64,14 @@
   <!-- Single Top Segmented Progress Bar -->
   <g transform="translate(25, 52)">
     <rect width="330" height="8" rx="4" fill="#161b22" />
-    <!-- Python (54%) -->
-    <rect width="178" height="8" rx="4" fill="#38bdf8" />
-    <!-- JS/TS (24%) -->
-    <rect x="180" width="79" height="8" rx="4" fill="#facc15" />
-    <!-- Go/C++ (14%) -->
-    <rect x="261" width="46" height="8" rx="4" fill="#a855f7" />
-    <!-- HTML/CSS (8%) -->
-    <rect x="309" width="21" height="8" rx="4" fill="#00ea64" />
+    <!-- Python (48%) -->
+    <rect width="158" height="8" rx="4" fill="#38bdf8" />
+    <!-- JS/TS (32%) -->
+    <rect x="160" width="105" height="8" rx="4" fill="#facc15" />
+    <!-- HTML/CSS (13%) -->
+    <rect x="267" width="43" height="8" rx="4" fill="#00ea64" />
+    <!-- C++/Java (7%) -->
+    <rect x="312" width="18" height="8" rx="4" fill="#a855f7" />
   </g>
 
   <!-- Languages List (2 Columns) -->
@@ -81,28 +81,28 @@
     <g transform="translate(0, 0)">
       <circle cx="5" cy="0" r="4.5" fill="#38bdf8" />
       <text x="16" y="4" class="lang-name">Python</text>
-      <text x="100" y="4" class="lang-pct">54.2%</text>
+      <text x="100" y="4" class="lang-pct">48.2%</text>
     </g>
 
     <!-- Row 1 Right: TypeScript / JS -->
     <g transform="translate(170, 0)">
       <circle cx="5" cy="0" r="4.5" fill="#facc15" />
-      <text x="16" y="4" class="lang-name">JavaScript/TS</text>
-      <text x="120" y="4" class="lang-pct">24.1%</text>
+      <text x="16" y="4" class="lang-name">JavaScript &amp; TS</text>
+      <text x="120" y="4" class="lang-pct">32.1%</text>
     </g>
 
-    <!-- Row 2: Go / C++ -->
+    <!-- Row 2: HTML / CSS -->
     <g transform="translate(0, 36)">
-      <circle cx="5" cy="0" r="4.5" fill="#a855f7" />
-      <text x="16" y="4" class="lang-name">Go &amp; C++</text>
-      <text x="100" y="4" class="lang-pct">13.8%</text>
+      <circle cx="5" cy="0" r="4.5" fill="#00ea64" />
+      <text x="16" y="4" class="lang-name">HTML5 &amp; CSS3</text>
+      <text x="100" y="4" class="lang-pct">12.8%</text>
     </g>
 
-    <!-- Row 2 Right: HTML & CSS -->
+    <!-- Row 2 Right: C++ & Java -->
     <g transform="translate(170, 36)">
-      <circle cx="5" cy="0" r="4.5" fill="#00ea64" />
-      <text x="16" y="4" class="lang-name">HTML &amp; CSS</text>
-      <text x="120" y="4" class="lang-pct">7.9%</text>
+      <circle cx="5" cy="0" r="4.5" fill="#a855f7" />
+      <text x="16" y="4" class="lang-name">C++ &amp; Java</text>
+      <text x="120" y="4" class="lang-pct">6.9%</text>
     </g>
 
   </g>

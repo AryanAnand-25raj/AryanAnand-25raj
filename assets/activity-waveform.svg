@@ -79,7 +79,7 @@
   <g transform="translate(40, 38)">
     <circle cx="6" cy="0" r="4.5" fill="#00ea64" />
     <text x="22" y="5" class="graph-title">CONTRIBUTION ACTIVITY VELOCITY</text>
-    <text x="380" y="5" class="stat-badge">[ +2,100+ COMMITS &amp; PRs MERGED ]</text>
+    <text x="380" y="5" class="stat-badge">[ 44 PUBLIC REPOSITORIES // ACTIVE ]</text>
   </g>
 
   <!-- Top Right Metric Pills -->

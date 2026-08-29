@@ -65,45 +65,45 @@
 
   <!-- Title -->
   <g transform="translate(25, 34)">
-    <text x="0" y="0" class="card-title">Aryan Anand's GitHub Stats</text>
+    <text x="0" y="0" class="card-title">Aryan Anand's GitHub Stats (@AryanAnand-25raj)</text>
   </g>
 
   <!-- Stat Items (Left Column) -->
   <g transform="translate(25, 66)">
     
-    <!-- Item 1: Total Stars Earned -->
+    <!-- Item 1: Total Public Repositories -->
     <g transform="translate(0, 0)">
+      <circle cx="6" cy="0" r="3.5" fill="#2f81f7" />
+      <text x="18" y="4" class="stat-label">Public Repositories:</text>
+      <text x="210" y="4" class="stat-value">44 Repos</text>
+    </g>
+
+    <!-- Item 2: Total Stars Earned -->
+    <g transform="translate(0, 26)">
       <circle cx="6" cy="0" r="3.5" fill="#e3b341" />
       <text x="18" y="4" class="stat-label">Total Stars Earned:</text>
-      <text x="210" y="4" class="stat-value">42+</text>
+      <text x="210" y="4" class="stat-value">10+ Stars</text>
     </g>
 
-    <!-- Item 2: Total Commits (2025/2026) -->
-    <g transform="translate(0, 26)">
-      <circle cx="6" cy="0" r="3.5" fill="#2f81f7" />
-      <text x="18" y="4" class="stat-label">Total Commits:</text>
-      <text x="210" y="4" class="stat-value">2,148</text>
-    </g>
-
-    <!-- Item 3: Total PRs -->
+    <!-- Item 3: Featured Production Projects -->
     <g transform="translate(0, 52)">
       <circle cx="6" cy="0" r="3.5" fill="#00ea64" />
-      <text x="18" y="4" class="stat-label">Total PRs Merged:</text>
-      <text x="210" y="4" class="stat-value">18</text>
+      <text x="18" y="4" class="stat-label">Production Deployments:</text>
+      <text x="210" y="4" class="stat-value">ZYLO 3D, Resume, Notepad</text>
     </g>
 
-    <!-- Item 4: Contributed to -->
+    <!-- Item 4: Active Stacks -->
     <g transform="translate(0, 78)">
       <circle cx="6" cy="0" r="3.5" fill="#a855f7" />
-      <text x="18" y="4" class="stat-label">Contributed to (last yr):</text>
-      <text x="210" y="4" class="stat-value">12+ Repos</text>
+      <text x="18" y="4" class="stat-label">Primary Frameworks:</text>
+      <text x="210" y="4" class="stat-value">Python, TS, React, Cloud</text>
     </g>
 
     <!-- Item 5: Active Streak -->
     <g transform="translate(0, 104)">
-      <circle cx="6" cy="0" r="3.5" fill="#ff7b72" />
-      <text x="18" y="4" class="stat-label">Production Uptime:</text>
-      <text x="210" y="4" class="stat-value">99.9%</text>
+      <circle cx="6" cy="0" r="3.5" fill="#38bdf8" />
+      <text x="18" y="4" class="stat-label">Daily Engineering Flow:</text>
+      <text x="210" y="4" class="stat-value">Active Daily ⚡</text>
     </g>
 
   </g>
