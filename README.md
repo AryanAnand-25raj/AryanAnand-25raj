@@ -312,51 +312,10 @@
 
 ---
 
-## 💻 GitHub Top Repositories & Real-Time Production Pins
-
-<div align="center">
-  <table width="100%" style="border-collapse: collapse; border: none;">
-    <tr>
-      <td width="50%" align="center" style="border: none; padding: 6px;">
-        <a href="https://github.com/AryanAnand-25raj/ZYLO_3D_Portfolio_Application" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=AryanAnand-25raj&repo=ZYLO_3D_Portfolio_Application&theme=tokyonight&hide_border=false" alt="ZYLO 3D Portfolio Application" width="100%" />
-        </a>
-      </td>
-      <td width="50%" align="center" style="border: none; padding: 6px;">
-        <a href="https://github.com/AryanAnand-25raj/Resume-html-css" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=AryanAnand-25raj&repo=Resume-html-css&theme=tokyonight&hide_border=false" alt="Modern Resume Web App" width="100%" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" align="center" style="border: none; padding: 6px;">
-        <a href="https://github.com/AryanAnand-25raj/Tkinter-Library-and-making-of-the-Notepad" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=AryanAnand-25raj&repo=Tkinter-Library-and-making-of-the-Notepad&theme=tokyonight&hide_border=false" alt="Python Tkinter Notepad" width="100%" />
-        </a>
-      </td>
-      <td width="50%" align="center" style="border: none; padding: 6px;">
-        <a href="https://github.com/AryanAnand-25raj/calculator-with-python-Library-Tkinter-" target="_blank">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=AryanAnand-25raj&repo=calculator-with-python-Library-Tkinter-&theme=tokyonight&hide_border=false" alt="Python Tkinter Calculator" width="100%" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
 ## 🏆 GitHub Trophies
 
 <p align="center">
   <img src="assets/github-trophies.svg" alt="GitHub Trophies" width="100%" />
-</p>
-
----
-
-## 🎧 Flow State & Dev Audio Station
-
-<p align="center">
-  <img src="assets/lofi-workstation.svg" alt="Coding in Flow State Audio Station" width="100%" />
 </p>
 
 ---
