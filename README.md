@@ -345,58 +345,6 @@
 
 ---
 
-## 🗺️ Engineering Journey & Career Milestones (2025 — 2030+)
-
-<p align="center">
-  <img src="assets/career-roadmap.svg" alt="Aryan's Engineering Journey and Roadmap" width="100%" />
-</p>
-
-<div align="center">
-  <table width="100%" style="border-collapse: collapse; border: 1px solid #30363d;">
-    <thead>
-      <tr style="background: #161b22; color: #f0f6fc;">
-        <th width="15%" style="padding: 10px; border: 1px solid #30363d;">Year</th>
-        <th width="35%" style="padding: 10px; border: 1px solid #30363d;">Primary Core Focus</th>
-        <th width="50%" style="padding: 10px; border: 1px solid #30363d;">Tech Stack & Key Milestones</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td align="center" style="padding: 10px; border: 1px solid #30363d; font-weight: bold; color: #38bdf8;">2025</td>
-        <td style="padding: 10px; border: 1px solid #30363d; color: #f0f6fc;">Full-Stack &amp; Python Data</td>
-        <td style="padding: 10px; border: 1px solid #30363d; color: #8b949e;">Full-Stack Web Development, Data Analysis, Python, Pandas &amp; Analytics</td>
-      </tr>
-      <tr style="background: #0d1117;">
-        <td align="center" style="padding: 10px; border: 1px solid #30363d; font-weight: bold; color: #2f81f7;">2026 ⚡</td>
-        <td style="padding: 10px; border: 1px solid #30363d; color: #f0f6fc; font-weight: bold;">Java, Django, Linux &amp; Cloud (Active)</td>
-        <td style="padding: 10px; border: 1px solid #30363d; color: #c9d1d9;">Java DSA, Python Django &amp; Frameworks, Linux Kernels &amp; Cloud Platforms</td>
-      </tr>
-      <tr>
-        <td align="center" style="padding: 10px; border: 1px solid #30363d; font-weight: bold; color: #a855f7;">2027</td>
-        <td style="padding: 10px; border: 1px solid #30363d; color: #f0f6fc;">DevOps, SQL &amp; Android Apps</td>
-        <td style="padding: 10px; border: 1px solid #30363d; color: #8b949e;">Docker Containerization, Kubernetes (K8s), SQL Databases, Android Dev</td>
-      </tr>
-      <tr style="background: #0d1117;">
-        <td align="center" style="padding: 10px; border: 1px solid #30363d; font-weight: bold; color: #facc15;">2028</td>
-        <td style="padding: 10px; border: 1px solid #30363d; color: #f0f6fc;">Spring Boot &amp; Applied GenAI</td>
-        <td style="padding: 10px; border: 1px solid #30363d; color: #8b949e;">Spring Boot Enterprise Microservices, Gen AI, Full-Stack Cloud Applications</td>
-      </tr>
-      <tr>
-        <td align="center" style="padding: 10px; border: 1px solid #30363d; font-weight: bold; color: #00ea64;">2029</td>
-        <td style="padding: 10px; border: 1px solid #30363d; color: #f0f6fc;">Cloud Industry Job Role</td>
-        <td style="padding: 10px; border: 1px solid #30363d; color: #8b949e;">Securing a Job Role in Cloud Computing, Architecting Real-World Live Projects</td>
-      </tr>
-      <tr style="background: #0d1117;">
-        <td align="center" style="padding: 10px; border: 1px solid #30363d; font-weight: bold; color: #ec4899;">2030+ 🚀</td>
-        <td style="padding: 10px; border: 1px solid #30363d; color: #f0f6fc;">Senior Cloud Architect &amp; Beyond</td>
-        <td style="padding: 10px; border: 1px solid #30363d; color: #8b949e;">Senior Cloud Architect, Distributed Global Scale Systems &amp; Autonomous Cloud</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
----
-
 ## 🏆 GitHub Trophies
 
 <p align="center">
